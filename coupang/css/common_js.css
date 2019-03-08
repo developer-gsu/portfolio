@@ -1,0 +1,21 @@
+/*RESET*/
+*, :before, :after {margin: 0; padding: 0; color: inherit; font-style: inherit; text-decoration: inherit; border: 0px solid transparent; outline: 0px solid transparent; background: transparent none center center no-repeat; box-sizing: border-box}
+ul, ol {list-style: none;}
+table {table-layout: fixed;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: inherit;}
+label, button, [type="button"], [type="submit"], [type="reset"], a {cursor: pointer;}
+
+/*CLASS*/
+.clearfix:after {content:""; display: block; clear: both;}
+.ellipsis {text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.hidden {display: none; width: 0; height: 0; visibility: hidden; opacity: 0;}
+.bold {font-weight: 700;}
+.price {font-family: Tahoma; font-weight: bold;}
+.price:after {content:"원";}
+
+/*GLOBAL*/
+#wrap {font-family: Dotum;}
+
+[type="checkbox"], [type="radio"] {display: none;}
+.inner {position: relative; margin: auto; width: 1020px; height: 100%;}
+.inner:after {content:""; display: block; clear: both;}

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>SK WYVERNS</title>
+	<!--                  FONTS                  -->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	
+	 <!--                   CSS                   -->
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./lib/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="./lib/slick/slick-theme.css"/>
+
+	<!--                   JS                   -->
+	<script type="text/javascript" src="./js/jquery.3.1.1.min.js"></script>
+	<script type="text/javascript" src="./js/common.js"></script>
+	<script type="text/javascript" src="./lib/slick/slick.min.js"></script>
+
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<div class="inner">
+				<div class="member">
+					<a href="#">log in</a>
+					<a href="#">my page</a>
+					<input type="checkbox" id="search">
+					<input type="text">
+					<label class="click" for="search">검색</label>
+					<input type="submit" id="submit">
+					<label class="submit" for="submit"> 검색</label>
+				</div>
+				<h1><a href="./index.html"><img src="./img/main/logo_02.png" alt="skWyvenrs로고"></a></h1>
+				<nav class="clearfix">
+					<div class="menu">
+						<a href="./sub/history.html">wyverns</a>
+						<ul class="pop">
+							<li><a href="./sub/history.html">연혁</a></li>
+							<li>구단소식</li>
+							<li>이벤트</li>
+							<li>후원사</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="./sub/schedule.html">game</a>
+						<ul class="pop">
+							<li><a href="./sub/schedule.html">일정</a></li>
+							<li><a href="./sub/team_rank.html">팀순위</a></li>
+							<li>라인업</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="./sub/player.html">players</a>
+						<ul class="pop">
+							<li><a href="./sub/player.html">코칭 스태프</a></li>
+							<li><a href="./sub/pitcher.html">투수</a></li>
+							<li><a href="./sub/catcher.html">포수</a></li>
+							<li><a href="./sub/infielder.html">내야수</a></li>
+							<li><a href="./sub/outfield.html">외야수</a></li>
+							<li>군입대선수</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="./sub.seats.html">tickets</a>
+						<ul class="pop">
+							<li><a href="./sub/seats.html">입장권 안내</a></li>
+							<li><a href="./sub/seats_group.html">단체관람 안내</a></li>
+							<li><a href="./sub/ticketing.html">입장권 예매</a></li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="#">fan</a>
+						<ul class="pop">
+							<li>갤러리</li>
+							<li>응원단</li>
+							<li>SNS</li>
+							<li>엠블럼</li>
+							<li>쇼핑몰</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="http://www.wyvernsshop.co.kr/shop/main/index.php" target="_blank">shop</a>
+						<div class="pop"></div>
+					</div>
+				</nav>
+			</div><!-- /.inner -->
+		</header>
+		<div id="container">
+			<div id="visual">
+				<img src="./img/main/main_visual.jpg" alt="Rise Up Together!">
+			</div>
+			<section id="subnav">
+				<div class="inner">
+					<ul>
+						<li><a href="./sub/schedule.html">
+							<span class="icon">
+							</span>
+							<span class="menu">경기 일정보기</span>
+						</a></li>
+						<li><a href="./sub/seats.html">
+							<span class="icon">
+								
+							</span>
+							<span class="menu">티켓 예매하기</span>
+						</a></li>
+						<li><a href="#">
+							<span class="icon">
+								
+							</span>
+							<span class="menu">라인업 보기</span>
+						</a></li>
+						<li><a href="#">
+							<span class="icon">
+								
+							</span>
+							<span class="menu">와이번즈 갤러리</span>
+						</a></li>
+						<li><a href="#">
+							<span class="icon">
+								
+							</span>
+							<span class="menu">이벤트</span>
+						</a></li>
+					</ul>
+				</div><!-- /.inner -->
+			</section><!-- /.subnav -->
+			<section id="match">
+				<div class="inner">
+					<div class="mat_top">
+						<h2>match schedule</h2>
+					</div><!-- /.mat_top -->
+					<div class="mat_cnt">
+						<div class="next">
+							<div class="next_top">
+								<h3>next match</h3>
+								<a href="./sub/schedule.html" class="more">+ more</a>
+								<div class="page_control">
+									<i>◀</i>
+									<em>1/3</em>
+									<i>▶</i>
+								</div><!-- /.page_control -->
+							</div><!-- /.next_top -->
+							<ul class="next_cnt">
+								<li>
+								 	<div class="cnt_top">
+										<span>2018년 10월 10일 수요일 18:30</span>
+									</div><!-- /.cnt_top -->
+									<div class="cnt">
+										<div class="teamWrap">
+											<div class="team left">
+												<div class="logo" style="background-position: -11px -23px;">
+													
+												</div><!-- /.logo -->
+												<div class="name"><span>SK</span><br><em>WYVERNS</em></div><!-- /.name -->
+											</div><!-- /.team.left -->
+											<div class="verse"><span>VS</span></div><!-- /.verse -->
+											<div class="team right">
+												<div class="name" style="margin-right: 20px"><span>DOOSAN</span><br><em>BEARS</em></div><!-- /.name -->
+												<div class="logo" style="background-position: -168px -23px;">
+													
+												</div><!-- /.logo -->
+											</div><!-- /.team.right -->
+											<div class="location">서울 종합 운동장</div><!-- /.location -->
+										</div><!-- /.teamWrap -->
+									</div><!-- /.cnt -->
+								</li>
+								<li>
+								 	<div class="cnt_top">
+										<span>2018년 10월 11일 목요일 18:30</span>
+									</div><!-- /.cnt_top -->
+									<div class="cnt">
+										<div class="teamWrap">
+											<div class="team left" style="margin-left: 20px">
+												<div class="logo" style="background-position: -320px -23px;">
+													
+												</div><!-- /.logo -->
+												<div class="name"><span>SAMSUNG</span><br><em>LIONS</em></div><!-- /.name -->
+											</div><!-- /.team.left -->
+											<div class="verse"><span>VS</span></div><!-- /.verse -->
+											<div class="team right">
+												<div class="name"><span>SK</span><br><em>WYVERNS</em></div><!-- /.name -->
+												<div class="logo" style="background-position: -11px -23px;">
+													
+												</div><!-- /.logo -->
+											</div><!-- /.team.right -->
+											<div class="location">인천 SK 행복드림구장</div><!-- /.location -->
+										</div><!-- /.teamWrap -->
+									</div><!-- /.cnt -->
+								</li>
+								<li>
+								 	<div class="cnt_top">
+								 		<span>2018년 10월 13일 토요일 17:00</span>
+								 	</div><!-- /.cnt_top -->
+									<div class="cnt">
+										<div class="teamWrap">
+											<div class="team left" style="margin-left: 20px">
+												<div class="logo" style="background-position: -11px -164px;">
+													
+												</div><!-- /.logo -->
+												<div class="name"><span>HANHWA</span><br><em>EAGLES</em></div><!-- /.name -->
+											</div><!-- /.team.left -->
+											<div class="verse"><span>VS</span></div><!-- /.verse -->
+											<div class="team right">
+												<div class="name"><span>SK</span><br><em>WYVERNS</em></div><!-- /.name -->
+												<div class="logo" style="background-position: -11px -23px;">
+													
+												</div><!-- /.logo -->
+											</div><!-- /.team.right -->
+											<div class="location">인천 SK 행복드림구장</div><!-- /.location -->
+										</div><!-- /.teamWrap -->
+									</div><!-- /.cnt -->
+								</li>
+							</ul><!-- /.next_cnt -->
+						</div><!-- /.next -->
+						<div class="resultWrap">
+							<h3>latest results</h3>
+							<a href="./sub/schedule.html" class="more">+ more</a>
+							<ul>
+								<li>
+									<div class="dateWrap">
+										<p class="date">2018.10.09 화요일 14:00</p>
+										<em>@문학</em>
+									</div>
+									<div class="result">
+										<div class="r_team left">
+											<div class="logo" style="background-position: -11px -12px">
+												
+											</div>
+											<div class="name">
+												<span>SK</span><br>
+												<em>WYVERNS</em>
+											</div>
+										</div>
+										<div class="score">4:8</div>
+										<div class="r_team right">
+											<div class="name">
+												<span>SAMSUNG</span><br>
+												<em>LIONS</em>
+											</div>
+											<div class="logo" style="background-position: -152px -12px">
+												
+											</div>
+										</div>
+									</div><!-- /.result -->
+								</li>
+								<li>
+									<div class="dateWrap">
+										<p class="date">2018.10.09 화요일 14:00</p>
+										<em>@문학</em>
+									</div>
+									<div class="result">
+										<div class="r_team left">
+											<div class="logo" style="background-position: -11px -12px">
+												
+											</div>
+											<div class="name">
+												<span>SK</span><br>
+												<em>WYVERNS</em>
+											</div>
+										</div>
+										<div class="score">4:8</div>
+										<div class="r_team right">
+											<div class="name">
+												<span>KIA</span><br>
+												<em>TIGERS</em>
+											</div>
+											<div class="logo" style="background-position: -224px -12px">
+												
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="dateWrap">
+										<p class="date">2018.10.09 화요일 14:00</p>
+										<em>@문학</em>
+									</div>
+									<div class="result">
+										<div class="r_team left">
+											<div class="logo" style="background-position: -11px -12px">
+												
+											</div>
+											<div class="name">
+												<span>SK</span><br>
+												<em>WYVERNS</em>
+											</div>
+										</div>
+										<div class="score">10:3</div>
+										<div class="r_team right">
+											<div class="name">
+												<span>KIA</span><br>
+												<em>TIGERS</em>
+											</div>
+											<div class="logo" style="background-position: -224px -12px">
+												
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div><!-- /.resultWrap -->
+					</div><!-- /.mat_cnt -->
+				</div><!-- /.inner -->
+			</section><!-- #match -->
+			<section id="news">
+				<div class="inner">
+					<h2>NEWS</h2>
+					<ul>
+						<li>
+							<div class="thumb">
+								<a href="#">자세히 보기</a>
+							</div>
+							<div class="cnt">
+								<a href="#">
+									<span class="tit ellipsis"> SK 힐만 감독, 포스트시즌 마친 후 미국으로 돌아가야 하는 상황 밝혀 </span>
+									<em class="desc">SK와이번스(대표이사 류준열)의 트레이 힐만 감독(55)은 10월 13일(토)에 열리는 LG 트윈스와의 2018시즌 홈 최종전을 앞두고 인터뷰를 통해, 포스트시즌을 마치고 KBO 리그를 떠나 미국으로 돌아가야 하는 상황을 밝혔다. </em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="thumb">
+								<a href="#">자세히 보기</a>
+							</div>
+							<div class="cnt">
+								<a href="#">
+									<span class="tit ellipsis">SK와이번스, 인천야구 사상 두 번째 시즌 100만 관중 돌파 </span>
+									<em class="desc">SK와이번스(대표이사 류준열)는 10월 9일(화), 인천SK행복드림구장에서 열린 삼성 라이온즈와의 시즌 71번째 홈 경기에서 인천야구 역사상 두 번째로 단일 시즌 100만 관중을 돌파했다.</em>
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="thumb">
+								<a href="#">자세히 보기</a>
+							</div>
+							<div class="cnt">
+								<a href="#">
+									<span class="tit ellipsis"> SK와이번스, 2019 신인선수 10명과 계약 체결 </span>
+									<em class="desc">SK와이번스(대표이사 류준열)는 2019년도 신인선수 10명과 입단 계약을 완료했다고 27일 밝혔다. SK는 1차 지명한 백승건(인천고, 투수)와 계약금 1억원, 연봉 2천7백만원(신인 선수 공통 연봉)에 입단 계약을 체결했다.  </em>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<a href="#" class="detail">더 보기</a>
+				</div><!-- /.inner -->
+			</section><!-- #news -->
+			<section id="store">
+				<div class="inner">
+					<h2>store</h2>
+					<ul class="autoplay clearfix">
+						<li><a href="http://www.wyvernsshop.co.kr/shop/goods/goods_view.php?goodsno=430&category=003001" target="_blank">
+							<span class="thumb">
+								<img src="./img/main/store1.png" alt="상품 이미지">
+							</span>
+							<span class="info">
+								<span class="tit">레드 유니폼</span>
+								<span class="price">13,000</span>
+							</span>
+						</a></li>
+						<li><a href="http://www.wyvernsshop.co.kr/shop/goods/goods_view.php?goodsno=426&category=004001" target="_blank">
+							<span class="thumb">
+								<img src="./img/main/store2.png" alt="상품 이미지">
+							</span>
+							<span class="info">
+								<span class="tit">어센틱 동계점퍼</span>
+								<span class="price">139,000</span>
+							</span>
+						</a></li>
+						<li><a href="http://www.wyvernsshop.co.kr/shop/goods/goods_view.php?goodsno=417&category=003002" target="_blank">
+							<span class="thumb">
+								<img src="./img/main/store3.png" alt="상품 이미지">
+							</span>
+							<span class="info">
+								<span class="tit">조동화 은퇴 기념구</span>
+								<span class="price">29,000</span>
+							</span>
+						</a></li>
+						<li><a href="http://www.wyvernsshop.co.kr/shop/goods/goods_view.php?goodsno=395" target="_blank">
+							<span class="thumb">
+								<img src="./img/main/store4.png" alt="상품 이미지">
+							</span>
+							<span class="info">
+								<span class="tit">마리몬드 어센틱 모자</span>
+								<span class="price">38,000</span>
+							</span>
+						</a></li>
+						<li><a href="http://www.wyvernsshop.co.kr/shop/goods/goods_view.php?goodsno=450" target="_blank">
+							<span class="thumb">
+								<img src="./img/main/store5.png" alt="상품 이미지">
+							</span>
+							<span class="info">
+								<span class="tit">우승 기념 티셔츠</span>
+								<span class="price">33,000</span>
+							</span>
+						</a></li>
+						<li><a href="http://www.wyvernsshop.co.kr/shop/goods/goods_view.php?goodsno=449" target="_blank">
+							<span class="thumb">
+								<img src="./img/main/store6.png" alt="상품 이미지">
+							</span>
+							<span class="info">
+								<span class="tit">우승 기념 뱃지세트</span>
+								<span class="price">38,000</span>
+							</span>
+						</a></li>
+						<li><a href="http://www.wyvernsshop.co.kr/shop/goods/goods_view.php?goodsno=446" target="_blank">
+							<span class="thumb">
+								<img src="./img/main/store7.png" alt="상품 이미지">
+							</span>
+							<span class="info">
+								<span class="tit">우승 기념 머그컵</span>
+								<span class="price">12,000</span>
+							</span>
+						</a></li>
+						<li><a href="http://www.wyvernsshop.co.kr/shop/goods/goods_view.php?goodsno=445" target="_blank">
+							<span class="thumb">
+								<img src="./img/main/store8.png" alt="상품 이미지">
+							</span>
+							<span class="info">
+								<span class="tit">우승 기념 싸인 빅볼</span>
+								<span class="price">50,000</span>
+							</span>
+						</a></li>
+					</ul>
+					<a href="http://www.wyvernsshop.co.kr/shop/main/index.php" target="_blank" class="detail">더 보기</a>
+				</div><!-- /.inner -->
+			</section ><!-- /#store -->
+			<section id="sponsor">
+				<div class="inner">
+					<ul class="autoplay">
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_01.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_02.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_03.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_04.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_05.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_06.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_07.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_08.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_09.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_10.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_11.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_12.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_13.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_14.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_15.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_16.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_17.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_18.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_19.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_20.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_21.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_22.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_23.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_24.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_25.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_26.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_27.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_28.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_29.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_30.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_31.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_32.png" alt="협력사">
+						</a></li>
+						<li><a href="#">
+							<img src="./img/main/sponsor/sponsor_33.png" alt="협력사">
+						</a></li>
+					</ul>
+				</div>
+			</section>
+		</div><!-- /.#container -->
+		<footer>
+			<div class="inner">
+				<nav>
+					<a href="#">개인정보 처리지침</a>
+					<a href="#">이용약관</a>
+					<a href="#">이메일주소 무단 수집 거부</a>
+					<a href="#">개인정보 수집 및 이용</a>
+				</nav>
+				<div class="ft_cnt">
+					<span>에스케이와이번스주식회사(대표이사 : 류준열) | 주소 : 인천광역시 미추홀구 매소홀로 618(문학동), 주경기장 2층</span><br>
+					<span>사업자등록번호 : 131-81-54702 | 개인정보보호관리책임자 : 권철근(ck.kwon@skwyverns.co.kr)</span><br>
+					<span>고객센터 전화번호 : 032-455-2600 (평일 09:00~18:00)</span><br>
+					<span>COPYRIGHT © SK TELECOM. ALL RIGHTS RESERVED.</span>
+				</div>
+			</div><!-- /.inner -->
+		</footer>
+	</div><!-- /#wrap -->
+</body>
+</html>

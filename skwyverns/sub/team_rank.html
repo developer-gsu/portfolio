@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>SY WYVERNS</title>
+	<!--                  FONTS                  -->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	
+	 <!--                   CSS                   -->
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/sub.css">
+	<link rel="stylesheet" type="text/css" href="../lib/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="../lib/slick/slick-theme.css"/>
+
+	<!--                   JS                   -->
+	<script type="text/javascript" src="../js/jquery.3.1.1.min.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/schedule.js"></script>
+	<script type="text/javascript" src="../lib/slick/slick.min.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<div class="inner">
+				<div class="member">
+					<a href="#">log in</a>
+					<a href="#">my page</a>
+					<input type="checkbox" id="search">
+					<input type="text">
+					<label class="click" for="search">검색</label>
+					<input type="submit" id="submit">
+					<label class="submit" for="submit"> 검색</label>
+				</div>
+				<h1><a href="../index.html"><img src="../img/main/logo_02.png" alt="로고"></a></h1>
+				<nav class="clearfix">
+					<div class="menu">
+						<a href="./history.html">wyverns</a>
+						<ul class="pop">
+							<li><a href="./history.html">연혁</a></li>
+							<li>구단소식</li>
+							<li>이벤트</li>
+							<li>후원사</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="./schedule.html">game</a>
+						<ul class="pop">
+							<li><a href="./schedule.html">경기 일정</a></li>
+							<li><a href="./team_rank.html">팀순위</a></li>
+							<li>라인업</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="./player.html">players</a>
+						<ul class="pop">
+							<li><a href="./player.html">코칭 스태프</a></li>
+							<li><a href="./pitcher.html">투수</a></li>
+							<li><a href="./catcher.html">포수</a></li>
+							<li><a href="./infielder.html">내야수</a></li>
+							<li><a href="./outfielder.html">외야수</a></li>
+							<li>군입대선수</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="#">tickets</a>
+						<ul class="pop">
+							<li><a href="./seats.html">입장권 안내</a></li>
+							<li><a href="./seats_group.html">단체관람 안내</a></li>
+							<li><a href="./ticketing.html">입장권 예매</a></li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="#">fan</a>
+						<ul class="pop">
+							<li>갤러리</li>
+							<li>응원단</li>
+							<li>SNS</li>
+							<li>엠블럼</li>
+							<li>쇼핑몰</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="http://www.wyvernsshop.co.kr/shop/main/index.php" target="_blank">shop</a>
+						<div class="pop"></div>
+					</div>
+				</nav>
+			</div><!-- /.inner -->
+		</header>
+		<div id="team_rank">
+			<div class="subnav">
+				<h2><a href="./schedule.html">game</a></h2>			
+				<div class="navBar">
+					<div class="inner">
+						<a href="../index.html" class="home"><i></i>홈</a>
+						<a href="./schedule.html" class="sub">경기</a>
+						<a href="#" class="now">팀순위<i></i></a>
+						<ul class="subpop">
+							<li><a href="./schedule.html">경기 일정</a></li>
+							<li><a href="./team_rank.html">팀순위</a></li>
+							<li><a href="#">라인업</a></li>
+						</ul>
+					</div>
+				</div><!-- /.navBar -->
+			</div><!-- /.subnav -->
+			<div class="contents">
+				<div class="inner">
+					<h3>
+						<b>TEAM RANK</b><br>
+						<i>팀 순위</i>
+					</h3>
+					<div class="team_table">
+						<div class="selectyear">
+							<label class="selector">2019</label>
+							<span>년</span>
+							<ul>
+								<li>2019</li>
+								<li>2018</li>
+								<li>2017</li>
+								<li>2016</li>
+								<li>2015</li>
+							</ul>
+						</div>
+						<table>
+							<colgroup>
+								<col><col><col><col><col><col><col><col><col>
+							</colgroup>
+							<thead>
+								<tr>
+									<th>순위</th>
+									<th>구단</th>
+									<th>경기수</th>
+									<th>승</th>
+									<th>패</th>
+									<th>무</th>
+									<th>승률</th>
+									<th>게임차</th>
+									<th>최근 10경기</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>두산</td>
+									<td>144</td>
+									<td>93</td>
+									<td>51</td>
+									<td>0</td>
+									<td>0.646</td>
+									<td>0.0</td>
+									<td>6승 4패 0무</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>SK</td>
+									<td>144</td>
+									<td>78</td>
+									<td>65</td>
+									<td>1</td>
+									<td>0.545</td>
+									<td>14.5</td>
+									<td>3승 7패 0무</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>한화이글스</td>
+									<td>144</td>
+									<td>77</td>
+									<td>67</td>
+									<td>0</td>
+									<td>0.535</td>
+									<td>16.0</td>
+									<td>5승 5패 0무</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>넥센</td>
+									<td>144</td>
+									<td>75</td>
+									<td>69</td>
+									<td>0</td>
+									<td>0.521</td>
+									<td>18.0</td>
+									<td>5승 5패 0무</td>
+								</tr>
+								<tr>
+									<td>5</td>
+									<td>KIA</td>
+									<td>144</td>
+									<td>70</td>
+									<td>74</td>
+									<td>0</td>
+									<td>0.486</td>
+									<td>23.0</td>
+									<td>4승 6패 0무</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td>삼성</td>
+									<td>144</td>
+									<td>68</td>
+									<td>72</td>
+									<td>4</td>
+									<td>0.486</td>
+									<td>23.0</td>
+									<td>6승 3패 1무</td>
+								</tr>
+								<tr>
+									<td>7</td>
+									<td>롯데</td>
+									<td>144</td>
+									<td>68</td>
+									<td>74</td>
+									<td>2</td>
+									<td>0.479</td>
+									<td>24.0</td>
+									<td>6승 4패 0무</td>
+								</tr>
+								<tr>
+									<td>8</td>
+									<td>LG</td>
+									<td>144</td>
+									<td>68</td>
+									<td>75</td>
+									<td>1</td>
+									<td>0.476</td>
+									<td>24.5</td>
+									<td>4승 6패 0무</td>
+								</tr>
+								<tr>
+									<td>9</td>
+									<td>kt</td>
+									<td>144</td>
+									<td>59</td>
+									<td>82</td>
+									<td>3</td>
+									<td>0.418</td>
+									<td>32.5</td>
+									<td>5승 5패 0무</td>
+								</tr>
+								<tr>
+									<td>10</td>
+									<td>NC</td>
+									<td>144</td>
+									<td>58</td>
+									<td>85</td>
+									<td>1</td>
+									<td>0.406</td>
+									<td>34.5</td>
+									<td>2승 8패 0무</td>
+								</tr>
+							</tbody>
+						</table>
+					</div><!-- /.team_table -->					
+					<div class="top">
+						<div class="thumb"></div>
+						<div class="tit">TOP</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- /#team_rank -->
+		<footer>
+			<div class="inner">
+				<nav>
+					<a href="#">개인정보 처리지침</a>
+					<a href="#">이용약관</a>
+					<a href="#">이메일주소 무단 수집 거부</a>
+					<a href="#">개인정보 수집 및 이용</a>
+				</nav>
+				<div class="ft_cnt">
+					<span>에스케이와이번스주식회사(대표이사 : 류준열) | 주소 : 인천광역시 미추홀구 매소홀로 618(문학동), 주경기장 2층</span><br>
+					<span>사업자등록번호 : 131-81-54702 | 개인정보보호관리책임자 : 권철근(ck.kwon@skwyverns.co.kr)</span><br>
+					<span>고객센터 전화번호 : 032-455-2600 (평일 09:00~18:00)</span><br>
+					<span>COPYRIGHT © SK TELECOM. ALL RIGHTS RESERVED.</span>
+				</div>
+			</div><!-- /.inner -->
+		</footer>
+	</div>
+</body>
+</html>

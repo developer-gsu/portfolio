@@ -1,0 +1,22 @@
+/*-----------------------------------------RESET----------------------------------------------------*/
+*, :after, :before {margin: 0; padding: 0; color: inherit; text-decoration: inherit; font-style: inherit; border: 0px solid transparent; outline: 0px solid transparent; background: transparent none 50% 50% no-repeat; box-sizing: border-box;}
+ul, ol {list-style: none;}
+table {table-layout: fixed;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: inherit;}
+label, a, [type="button"], [type="submit"], [type="reset"], button {cursor: pointer;}
+
+/*-----------------------------------------CLASSS---------------------------------------------------*/
+.clearfix:after {content:""; display: block; clear: both;}
+.ellipsis {text-overflow: ellipsis; overflow: hidden; white-space: nowrap}
+.hidden {/*display: none;*/ width: 0; height: 0; visibility: hidden; opacity: 0;}
+.bold {font-weight: 700;}
+
+/*-----------------------------------------GLOBAL---------------------------------------------------*/
+
+#wrap {font-family: 'Rajdhani', 'Noto Sans KR', sans-serif;}
+.inner {margin: auto; position: relative; width: 1200px; min-height: 600px;}
+section {overflow: hidden;}
+section h2 {position: relative; margin: 5vh 0 4vh; text-transform: uppercase; text-align: center; font-size: 5.2vmin; font-weight: 600;}
+::selection {color: #fff; background-color: #ec6d7f;}
+
+#modal {display: none; position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 100; background-color: rgba(0,0,0,0.5);}

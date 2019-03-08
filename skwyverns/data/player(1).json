@@ -1,0 +1,478 @@
+{
+	"pitcher" : {
+		"1" : {
+			"name" : "강지광",
+			"thumb" : "../img/player/pitcher/pitcher_1.jpg",
+			"backNumber" : "25",
+			"role" : "투수"
+		},
+		"2" : {
+			"name" : "김광현",
+			"thumb" : "../img/player/pitcher/pitcher_2.jpg",
+			"backNumber" : "29",
+			"role" : "투수"
+		},
+		"3" : {
+			"name" : "김대유",
+			"thumb" : "../img/player/pitcher/pitcher_3.jpg",
+			"backNumber" : "97",
+			"role" : "투수"
+		},
+		"4" : {
+			"name" : "김성호",
+			"thumb" : "../img/player/pitcher/pitcher_4.jpg",
+			"backNumber" : "92",
+			"role" : "투수"
+		},
+		"5" : {
+			"name" : "김정우",
+			"thumb" : "../img/player/pitcher/pitcher_5.jpg",
+			"backNumber" : "30",
+			"role" : "투수"
+		},
+		"6" : {
+			"name" : "김주한",
+			"thumb" : "../img/player/pitcher/pitcher_6.jpg",
+			"backNumber" : "59",
+			"role" : "투수"
+		},
+		"7" : {
+			"name" : "김태훈",
+			"thumb" : "../img/player/pitcher/pitcher_7.jpg",
+			"backNumber" : "51",
+			"role" : "투수"
+		},
+		"8" : {
+			"name" : "김택형",
+			"thumb" : "../img/player/pitcher/pitcher_8.jpg",
+			"backNumber" : "1",
+			"role" : "투수"
+		},
+		"9" : {
+			"name" : "김표승",
+			"thumb" : "../img/player/pitcher/pitcher_9.jpg",
+			"backNumber" : "112",
+			"role" : "투수"
+		},
+		"10" : {
+			"name" : "남윤성",
+			"thumb" : "../img/player/pitcher/pitcher_10.jpg",
+			"backNumber" : "40",
+			"role" : "투수"
+		},
+		"11" : {
+			"name" : "문승원",
+			"thumb" : "../img/player/pitcher/pitcher_11.jpg",
+			"backNumber" : "42",
+			"role" : "투수"
+		},
+		"12" : {
+			"name" : "박규민",
+			"thumb" : "../img/player/pitcher/pitcher_12.jpg",
+			"backNumber" : "60",
+			"role" : "투수"
+		},
+		"13" : {
+			"name" : "박민호",
+			"thumb" : "../img/player/pitcher/pitcher_13.jpg",
+			"backNumber" : "90",
+			"role" : "투수"
+		},
+		"14" : {
+			"name" : "박정배",
+			"thumb" : "../img/player/pitcher/pitcher_14.jpg",
+			"backNumber" : "32",
+			"role" : "투수"
+		},
+		"15" : {
+			"name" : "박종욱",
+			"thumb" : "../img/player/pitcher/pitcher_15.jpg",
+			"backNumber" : "53",
+			"role" : "투수"
+		},
+		"16" : {
+			"name" : "박종훈",
+			"thumb" : "../img/player/pitcher/pitcher_16.jpg",
+			"backNumber" : "50",
+			"role" : "투수"
+		},
+		"17" : {
+			"name" : "박희수",
+			"thumb" : "../img/player/pitcher/pitcher_17.jpg",
+			"backNumber" : "47",
+			"role" : "투수"
+		},
+		"18" : {
+			"name" : "백인식",
+			"thumb" : "../img/player/pitcher/pitcher_18.jpg",
+			"backNumber" : "52",
+			"role" : "투수"
+		},
+		"19" : {
+			"name" : "봉민호",
+			"thumb" : "../img/player/pitcher/pitcher_19.jpg",
+			"backNumber" : "18",
+			"role" : "투수"
+		},
+		"20" : {
+			"name" : "산체스",
+			"thumb" : "../img/player/pitcher/pitcher_20.jpg",
+			"backNumber" : "15",
+			"role" : "투수"
+		},
+		"21" : {
+			"name" : "서동민",
+			"thumb" : "../img/player/pitcher/pitcher_21.jpg",
+			"backNumber" : "65",
+			"role" : "투수"
+		},
+		"22" : {
+			"name" : "서진용",
+			"thumb" : "../img/player/pitcher/pitcher_22.jpg",
+			"backNumber" : "22",
+			"role" : "투수"
+		},
+		"23" : {
+			"name" : "신동훈",
+			"thumb" : "../img/player/pitcher/pitcher_23.jpg",
+			"backNumber" : "12",
+			"role" : "투수"
+		},
+		"24" : {
+			"name" : "신재웅",
+			"thumb" : "../img/player/pitcher/pitcher_24.jpg",
+			"backNumber" : "11",
+			"role" : "투수"
+		},
+		"25" : {
+			"name" : "유호식",
+			"thumb" : "../img/player/pitcher/pitcher_25.jpg",
+			"backNumber" : "01",
+			"role" : "투수"
+		},
+		"26" : {
+			"name" : "윤희상",
+			"thumb" : "../img/player/pitcher/pitcher_26.jpg",
+			"backNumber" : "66",
+			"role" : "투수"
+		},
+		"27" : {
+			"name" : "이승진",
+			"thumb" : "../img/player/pitcher/pitcher_27.jpg",
+			"backNumber" : "55",
+			"role" : "투수"
+		},
+		"28" : {
+			"name" : "이원준",
+			"thumb" : "../img/player/pitcher/pitcher_28.jpg",
+			"backNumber" : "63",
+			"role" : "투수"
+		},
+		"29" : {
+			"name" : "이채호",
+			"thumb" : "../img/player/pitcher/pitcher_29.jpg",
+			"backNumber" : "96",
+			"role" : "투수"
+		},
+		"30" : {
+			"name" : "이희재",
+			"thumb" : "../img/player/pitcher/pitcher_30.jpg",
+			"backNumber" : "04",
+			"role" : "투수"
+		},
+		"31" : {
+			"name" : "임준혁",
+			"thumb" : "../img/player/pitcher/pitcher_31.jpg",
+			"backNumber" : "32",
+			"role" : "투수"
+		},
+		"32" : {
+			"name" : "전유수",
+			"thumb" : "../img/player/pitcher/pitcher_32.jpg",
+			"backNumber" : "42",
+			"role" : "투수"
+		},
+		"33" : {
+			"name" : "정영광",
+			"thumb" : "../img/player/pitcher/pitcher_33.jpg",
+			"backNumber" : "98",
+			"role" : "투수"
+		},
+		"34" : {
+			"name" : "정영일",
+			"thumb" : "../img/player/pitcher/pitcher_34.jpg",
+			"backNumber" : "18",
+			"role" : "투수"
+		},
+		"35" : {
+			"name" : "정재원",
+			"thumb" : "../img/player/pitcher/pitcher_35.jpg",
+			"backNumber" : "41",
+			"role" : "투수"
+		},
+		"36" : {
+			"name" : "정혁진",
+			"thumb" : "../img/player/pitcher/pitcher_36.jpg",
+			"backNumber" : "07",
+			"role" : "투수"
+		},
+		"37" : {
+			"name" : "조성훈",
+			"thumb" : "../img/player/pitcher/pitcher_37.jpg",
+			"backNumber" : "48",
+			"role" : "투수"
+		},
+		"38" : {
+			"name" : "조한욱",
+			"thumb" : "../img/player/pitcher/pitcher_38.jpg",
+			"backNumber" : "27",
+			"role" : "투수"
+		},
+		"39" : {
+			"name" : "채병용",
+			"thumb" : "../img/player/pitcher/pitcher_39.jpg",
+			"backNumber" : "45",
+			"role" : "투수"
+		},
+		"40" : {
+			"name" : "최경태",
+			"thumb" : "../img/player/pitcher/pitcher_40.jpg",
+			"backNumber" : "02",
+			"role" : "투수"
+		},
+		"41" : {
+			"name" : "최진호",
+			"thumb" : "../img/player/pitcher/pitcher_41.jpg",
+			"backNumber" : "16",
+			"role" : "투수"
+		},
+		"42" : {
+			"name" : "캘리",
+			"thumb" : "../img/player/pitcher/pitcher_42.jpg",
+			"backNumber" : "23",
+			"role" : "투수"
+		},
+		"43" : {
+			"name" : "허건엽",
+			"thumb" : "../img/player/pitcher/pitcher_43.jpg",
+			"backNumber" : "43",
+			"role" : "투수"
+		},
+		"44" : {
+			"name" : "허웅",
+			"thumb" : "../img/player/pitcher/pitcher_44.jpg",
+			"backNumber" : "61",
+			"role" : "투수"
+		}
+	},
+	"catcher" : {
+		"1" : {
+			"name" : "권기영",
+			"thumb" : "../img/player/catcher/catcher_1.jpg",
+			"backNumber" : "94",
+			"role" : "포수"			
+		},
+		"2" : {
+			"name" : "이동근",
+			"thumb" : "../img/player/catcher/catcher_2.jpg",
+			"backNumber" : "95",
+			"role" : "포수"			
+		},
+		"3" : {
+			"name" : "이성우",
+			"thumb" : "../img/player/catcher/catcher_3.jpg",
+			"backNumber" : "35",
+			"role" : "포수"			
+		},
+		"4" : {
+			"name" : "이윤재",
+			"thumb" : "../img/player/catcher/catcher_4.jpg",
+			"backNumber" : "24",
+			"role" : "포수"			
+		},
+		"5" : {
+			"name" : "이재원",
+			"thumb" : "../img/player/catcher/catcher_5.jpg",
+			"backNumber" : "20",
+			"role" : "포수"			
+		},
+		"6" : {
+			"name" : "이현석",
+			"thumb" : "../img/player/catcher/catcher_6.jpg",
+			"backNumber" : "44",
+			"role" : "포수"			
+		},
+		"7" : {
+			"name" : "임태준",
+			"thumb" : "../img/player/catcher/catcher_7.jpg",
+			"backNumber" : "44",
+			"role" : "포수"			
+		},
+		"8" : {
+			"name" : "전경원",
+			"thumb" : "../img/player/catcher/catcher_8.jpg",
+			"backNumber" : "69",
+			"role" : "포수"			
+		},
+		"9" : {
+			"name" : "허도환",
+			"thumb" : "../img/player/catcher/catcher_9.jpg",
+			"backNumber" : "34",
+			"role" : "포수"			
+		}
+	},
+	"infielder" : {
+		"1" : {
+			"name" : "강승호",
+			"thumb" : "../img/player/infielder/infielder_1.jpg",
+			"backNumber" : "28",
+			"role" : "내야수"
+		},
+		"2" : {
+			"name" : "김성현",
+			"thumb" : "../img/player/infielder/infielder_2.jpg",
+			"backNumber" : "6",
+			"role" : "내야수"
+		},
+		"3" : {
+			"name" : "나주환",
+			"thumb" : "../img/player/infielder/infielder_3.jpg",
+			"backNumber" : "3",
+			"role" : "내야수"
+		},
+		"4" : {
+			"name" : "박승욱",
+			"thumb" : "../img/player/infielder/infielder_4.jpg",
+			"backNumber" : "7",
+			"role" : "내야수"
+		},
+		"5" : {
+			"name" : "박정권",
+			"thumb" : "../img/player/infielder/infielder_5.jpg",
+			"backNumber" : "36",
+			"role" : "내야수"
+		},
+		"6" : {
+			"name" : "안상현",
+			"thumb" : "../img/player/infielder/infielder_6.jpg",
+			"backNumber" : "34",
+			"role" : "내야수"
+		},
+		"7" : {
+			"name" : "이대수",
+			"thumb" : "../img/player/infielder/infielder_7.jpg",
+			"backNumber" : "88",
+			"role" : "내야수"
+		},
+		"8" : {
+			"name" : "임재현",
+			"thumb" : "../img/player/infielder/infielder_8.jpg",
+			"backNumber" : "2",
+			"role" : "내야수"
+		},
+		"9" : {
+			"name" : "최승준",
+			"thumb" : "../img/player/infielder/infielder_9.jpg",
+			"backNumber" : "10",
+			"role" : "내야수"
+		},
+		"10" : {
+			"name" : "최정",
+			"thumb" : "../img/player/infielder/infielder_10.jpg",
+			"backNumber" : "14",
+			"role" : "내야수"
+		},
+		"11" : {
+			"name" : "최준우",
+			"thumb" : "../img/player/infielder/infielder_11.jpg",
+			"backNumber" : "68",
+			"role" : "내야수"
+		},
+		"12" : {
+			"name" : "최항",
+			"thumb" : "../img/player/infielder/infielder_12.jpg",
+			"backNumber" : "4",
+			"role" : "내야수"
+		},
+		"13" : {
+			"name" : "하성진",
+			"thumb" : "../img/player/infielder/infielder_13.jpg",
+			"backNumber" : "54",
+			"role" : "내야수"
+		}
+	},
+	"outfielder" : {
+		"1" : {
+			"name" : "김강민",
+			"thumb" : "../img/player/outfielder/outfielder_1.jpg",
+			"backNumber" : "0",
+			"role" : "외야수"
+		},
+		"2" : {
+			"name" : "김재현",
+			"thumb" : "../img/player/outfielder/outfielder_2.jpg",
+			"backNumber" : "8",
+			"role" : "외야수"
+		},
+		"3" : {
+			"name" : "노수광",
+			"thumb" : "../img/player/outfielder/outfielder_3.jpg",
+			"backNumber" : "17",
+			"role" : "외야수"
+		},
+		"4" : {
+			"name" : "류효용",
+			"thumb" : "../img/player/outfielder/outfielder_4.jpg",
+			"backNumber" : "30",
+			"role" : "외야수"
+		},
+		"5" : {
+			"name" : "윤정우",
+			"thumb" : "../img/player/outfielder/outfielder_5.jpg",
+			"backNumber" : "44",
+			"role" : "외야수"
+		},
+		"6" : {
+			"name" : "이정범",
+			"thumb" : "../img/player/outfielder/outfielder_6.jpg",
+			"backNumber" : "93",
+			"role" : "외야수"
+		},
+		"7" : {
+			"name" : "정의윤",
+			"thumb" : "../img/player/outfielder/outfielder_7.jpg",
+			"backNumber" : "37",
+			"role" : "외야수"
+		},
+		"8" : {
+			"name" : "정진기",
+			"thumb" : "../img/player/outfielder/outfielder_8.jpg",
+			"backNumber" : "9",
+			"role" : "외야수"
+		},
+		"9" : {
+			"name" : "제이미 로맥",
+			"thumb" : "../img/player/outfielder/outfielder_9.jpg",
+			"backNumber" : "27",
+			"role" : "외야수"
+		},
+		"10" : {
+			"name" : "조동화",
+			"thumb" : "../img/player/outfielder/outfielder_10.jpg",
+			"backNumber" : "84",
+			"role" : "외야수"
+		},
+		"11" : {
+			"name" : "최민재",
+			"thumb" : "../img/player/outfielder/outfielder_11.jpg",
+			"backNumber" : "24",
+			"role" : "외야수"
+		},
+		"12" : {
+			"name" : "한동민",
+			"thumb" : "../img/player/outfielder/outfielder_12.jpg",
+			"backNumber" : "62",
+			"role" : "외야수"
+		}
+	}
+}

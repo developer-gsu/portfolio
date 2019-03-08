@@ -1,0 +1,192 @@
+[
+	[
+		{
+			"number" : "01",
+			"name" : "트레이 힐만",
+			"thumb" : "../img/player/player_01.jpg",
+			"backNumber" : "88",
+			"role" : "감독"
+		},
+		{
+			"number" : "02",
+			"name" : "김성갑",
+			"thumb" : "../img/player/player_02.jpg",
+			"backNumber" : "81",
+			"role" : "수석코치"
+		},
+		{
+			"number" : "03",
+			"name" : "손지환",
+			"thumb" : "../img/player/player_03.jpg",
+			"backNumber" : "75",
+			"role" : "수비코치"
+		},
+		{
+			"number" : "04",
+			"name" : "최상덕",
+			"thumb" : "../img/player/player_04.jpg",
+			"backNumber" : "74",
+			"role" : "투수코치"
+		},
+		{
+			"number" : "05",
+			"name" : "정경배",
+			"thumb" : "../img/player/player_05.jpg",
+			"backNumber" : "99",
+			"role" : "타격코치"
+		},
+		{
+			"number" : "06",
+			"name" : "박계원",
+			"thumb" : "../img/player/player_06.jpg",
+			"backNumber" : "85",
+			"role" : "수비코치"
+		},
+		{
+			"number" : "07",
+			"name" : "정수성",
+			"thumb" : "../img/player/player_07.jpg",
+			"backNumber" : "86",
+			"role" : "작전/주루코치"
+		},
+		{
+			"number" : "08",
+			"name" : "박경완",
+			"thumb" : "../img/player/player_08.jpg",
+			"backNumber" : "80",
+			"role" : "배터리코치"
+		},
+		{
+			"number" : "09",
+			"name" : "예이츠",
+			"thumb" : "../img/player/player_09.jpg",
+			"backNumber" : "84",
+			"role" : "QC코치"
+		},
+		{
+			"number" : "10",
+			"name" : "박창민",
+			"thumb" : "../img/player/player_10.jpg",
+			"backNumber" : "-",
+			"role" : "컨디셔닝코치"
+		},
+		{
+			"number" : "11",
+			"name" : "이형삼",
+			"thumb" : "../img/player/player_11.jpg",
+			"backNumber" : "-",
+			"role" : "컨디셔닝코치"
+		},
+		{
+			"number" : "12",
+			"name" : "조문성",
+			"thumb" : "../img/player/player_12.jpg",
+			"backNumber" : "-",
+			"role" : "컨디셔닝코치"
+		},
+		{
+			"number" : "13",
+			"name" : "조문성",
+			"thumb" : "../img/player/player_13.jpg",
+			"backNumber" : "-",
+			"role" : "컨디셔닝코치"
+		},
+		{
+			"number" : "14",
+			"name" : "조문성",
+			"thumb" : "../img/player/player_14.jpg",
+			"backNumber" : "-",
+			"role" : "컨디셔닝코치"
+		}
+	],
+	[
+		{
+			"number" : "15",
+			"name" : "김무관",
+			"thumb" : "../img/player/player_15.png",
+			"backNumber" : "72",
+			"role" : "퓨처스감독"
+		},{
+			"number" : "16",
+			"name" : "김석연",
+			"thumb" : "../img/player/player_16.png",
+			"backNumber" : "87",
+			"role" : "수석주루코치"
+		},{
+			"number" : "17",
+			"name" : "김경태",
+			"thumb" : "../img/player/player_17.png",
+			"backNumber" : "71",
+			"role" : "투수코치"
+		},{
+			"number" : "18",
+			"name" : "제춘모",
+			"thumb" : "../img/player/player_18.png",
+			"backNumber" : "89",
+			"role" : "투수코치"
+		},{
+			"number" : "19",
+			"name" : "서한규",
+			"thumb" : "../img/player/player_19.png",
+			"backNumber" : "78",
+			"role" : "수비코치"
+		},{
+			"number" : "20",
+			"name" : "백재호",
+			"thumb" : "../img/player/player_20.png",
+			"backNumber" : "77",
+			"role" : "수비코치"
+		},{
+			"number" : "21",
+			"name" : "김기태",
+			"thumb" : "../img/player/player_21.png",
+			"backNumber" : "-",
+			"role" : "컨디셔닝코치"
+		},{
+			"number" : "22",
+			"name" : "최현셕",
+			"thumb" : "../img/player/player_22.png",
+			"backNumber" : "-",
+			"role" : "컨디셔닝코치"
+		},{
+			"number" : "23",
+			"name" : "김필중",
+			"thumb" : "../img/player/player_23.png",
+			"backNumber" : "82",
+			"role" : "배터리코치"
+		}
+	],
+	[
+		{
+			"number" : "24",
+			"name" : "이종운",
+			"thumb" : "../img/player/player_24.png",
+			"backNumber" : "73",
+			"role" : "책임/코칭스탭"
+		},{
+			"number" : "25",
+			"name" : "최창호",
+			"thumb" : "../img/player/player_25.png",
+			"backNumber" : "79",
+			"role" : "책임/투수코치"
+		},{
+			"number" : "26",
+			"name" : "이승호",
+			"thumb" : "../img/player/player_26.png",
+			"backNumber" : "70",
+			"role" : "재활코치"
+		},{
+			"number" : "27",
+			"name" : "김상용",
+			"thumb" : "../img/player/player_27.png",
+			"backNumber" : "-",
+			"role" : "컨디셔닝코치"
+		},{
+			"number" : "28",
+			"name" : "고윤형",
+			"thumb" : "../img/player/player_28.png",
+			"backNumber" : "-",
+			"role" : "컨디셔닝코치"
+		}
+	]
+]

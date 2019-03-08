@@ -1,0 +1,32 @@
+/*-------------------RESET---------------------*/
+
+* {margin: 0; padding: 0; color: inherit; text-decoration: inherit; font-style: inherit; border: 0px solid transparent; outline: 0px solid transparent; background: transparent none 50% 50% no-repeat; box-sizing: border-box;}
+ul, ol {list-style: none;}
+table {table-layout: fixed;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: inherit;}
+label, button, a, [type=button], [type=reset], [type=submit] {cursor : pointer;}
+
+/*-------------------CLASS---------------------*/
+
+.clearfix {content: ""; display: block; clear: both;}
+.ellipsis {text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.hidden {display: none; width: 0; height: 0; visibility: hidden; opacity: 0;}
+.bold {font-weight: 700;}
+
+/*--------------------GLOBAL-----------------------*/
+
+#wrap {font-weight: 300; font-family: 'Roboto', 'Noto Sans KR', sans-serif;/* 'Noto Sans', sans-serif;*/}
+
+.inner {position: relative; margin: auto; width: 1200px;}
+.inner:after {content:""; display: block; clear: both;}
+
+h2 {font-size: 40px; font-weight: 700; text-align: center; text-transform: uppercase;}
+a.more {position: absolute; top: 8px; right: 5px; width: 70px; font-size: 14px; line-height: 25px; border: 1px solid #ddd; background-color: rgba(0,0,0,0.03); border-radius: 4px; text-align: center; font-weight: 400;}
+a.more:hover {color: #fff; background-color: rgba(0,0,0,0.55);}
+a.detail {display: block; margin: 50px auto 0; width: 180px; line-height: 42px; color: #333; font-size: 18px; border: 2px solid #333; border-radius: 5px; font-weight: 700; text-align: center;}
+a.detail:hover {color: #fff; background-color: rgba(0,0,0,0.7); transition: background-color 0.4s;}
+
+.top {position: fixed; bottom: 100px; right: -100px; width: 50px; cursor: pointer; transition: right 0.5s;}
+.top.active {right: 15px;}
+.top .thumb {height: 50px; background-image: url(../img/seats/baseball.png); background-size: 100% 100%;}
+.top .tit {margin-top: 5px; color: #000; font-size: 14px; font-weight: bold; text-align: center;}

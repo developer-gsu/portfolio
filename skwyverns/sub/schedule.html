@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>SK WYVERNS</title>
+	<!--                  FONTS                  -->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	
+	 <!--                   CSS                   -->
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/sub.css">
+	<link rel="stylesheet" type="text/css" href="../lib/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="../lib/slick/slick-theme.css"/>
+
+	<!--                   JS                   -->
+	<script type="text/javascript" src="../js/jquery.3.1.1.min.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/schedule.js"></script>
+	<script type="text/javascript" src="../lib/slick/slick.min.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<div class="inner">
+				<div class="member">
+					<a href="#">log in</a>
+					<a href="#">my page</a>
+					<input type="checkbox" id="search">
+					<input type="text">
+					<label class="click" for="search">검색</label>
+					<input type="submit" id="submit">
+					<label class="submit" for="submit"> 검색</label>
+				</div>
+				<h1><a href="../index.html"><img src="../img/main/logo_02.png" alt="로고"></a></h1>
+				<nav class="clearfix">
+					<div class="menu">
+						<a href="./history.html">wyverns</a>
+						<ul class="pop">
+							<li><a href="./history.html">연혁</a></li>
+							<li>구단소식</li>
+							<li>이벤트</li>
+							<li>후원사</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="./schedule.html">game</a>
+						<ul class="pop">
+							<li><a href="./schedule.html">경기 일정</a></li>
+							<li><a href="./team_rank.html">팀순위</a></li>
+							<li>라인업</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="./player.html">players</a>
+						<ul class="pop">
+							<li><a href="./player.html">코칭 스태프</a></li>
+							<li><a href="./pitcher.html">투수</a></li>
+							<li><a href="./catcher.html">포수</a></li>
+							<li><a href="./infielder.html">내야수</a></li>
+							<li><a href="./outfielder.html">외야수</a></li>
+							<li>군입대선수</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="#">tickets</a>
+						<ul class="pop">
+							<li><a href="./seats.html">입장권 안내</a></li>
+							<li><a href="./seats_group.html">단체관람 안내</a></li>
+							<li><a href="./ticketing.html">입장권 예매</a></li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="#">fan</a>
+						<ul class="pop">
+							<li>갤러리</li>
+							<li>응원단</li>
+							<li>SNS</li>
+							<li>엠블럼</li>
+							<li>쇼핑몰</li>
+						</ul>
+					</div>
+					<div class="menu">
+						<a href="http://www.wyvernsshop.co.kr/shop/main/index.php" target="_blank">shop</a>
+						<div class="pop"></div>
+					</div>
+				</nav>
+			</div><!-- /.inner -->
+		</header>
+		<div id="schedule">
+			<div class="subnav">
+				<h2><a href="./schedule.html">game</a></h2>			
+				<div class="navBar">
+					<div class="inner">
+						<a href="../index.html" class="home"><i></i>홈</a>
+						<a href="./schedule.html" class="sub">경기</a>
+						<a href="#" class="now">경기 일정<i></i></a>
+						<ul class="subpop">
+							<li><a href="./schedule.html">경기 일정</a></li>
+							<li><a href="./team_rank.html">팀순위</a></li>
+							<li><a href="#">라인업</a></li>
+						</ul>
+					</div>
+				</div><!-- /.navBar -->
+			</div><!-- /.subnav -->
+			<div class="contents">
+				<div class="inner">
+					<h3>
+						<b>game schedule</b><br>
+						<i>경기 일정</i>
+					</h3>
+					<div class="buttonWrap">
+						<button class="selected">1군 경기일정</button>
+						<button>퓨쳐스리그 일정</button>
+					</div>
+					<div id="calendar">
+					</div>
+				</div><!-- /.inner -->
+			</div><!-- /.contents -->
+		</div><!-- /#history -->
+		<footer>
+			<div class="inner">
+				<nav>
+					<a href="#">개인정보 처리지침</a>
+					<a href="#">이용약관</a>
+					<a href="#">이메일주소 무단 수집 거부</a>
+					<a href="#">개인정보 수집 및 이용</a>
+				</nav>
+				<div class="ft_cnt">
+					<span>에스케이와이번스주식회사(대표이사 : 류준열) | 주소 : 인천광역시 미추홀구 매소홀로 618(문학동), 주경기장 2층</span><br>
+					<span>사업자등록번호 : 131-81-54702 | 개인정보보호관리책임자 : 권철근(ck.kwon@skwyverns.co.kr)</span><br>
+					<span>고객센터 전화번호 : 032-455-2600 (평일 09:00~18:00)</span><br>
+					<span>COPYRIGHT © SK TELECOM. ALL RIGHTS RESERVED.</span>
+				</div>
+			</div><!-- /.inner -->
+		</footer>
+	</div><!-- /#wrap -->
+	<script type="text/javascript">
+
+	$('#calendar').myCalendar({
+		data : "../data/schedule.json",
+		today : true,
+		button : ['◀','▶'],
+		select : true,
+		yearName : "",
+		dayName : ["SUN","MON","TUE","WED","THU","FRI","SAT"],
+		monthName : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+	});
+	</script>
+</body>
+</html>

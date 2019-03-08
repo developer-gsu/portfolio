@@ -1,0 +1,350 @@
+/*-----------------------HEADER-------------------------*/
+
+	header {width: 100%; height: 135px; color: #fff; background-color: #000;}
+	header .member {overflow: hidden; position: absolute; top: 30px; right: 0px; font-size: 12px;}
+	header .member a {float: left; margin: 3px 0 0 20px; text-transform: uppercase;}
+	header .member a:hover {color: #e31836;}
+	header .member input {float: left;}
+	header .member [type="checkbox"] {display: none;}
+	header .member [type="text"] {display: block; width: 0;}
+	header .member [type="submit"] {display: none;}
+	header .member .click {float: left; margin-left: 15px; width: 18px; height: 18px; background: url(../img/main/icon/search.png) 100% 100%; background-size: 100% 100%; text-indent: -9999px;}
+	header .member .click:hover {background: url(../img/main/icon/search_active.png) 100% 100%; background-size: 100% 100%;}
+	header .member .submit {display: none; float: left; margin-left: 15px; width: 18px; height: 18px; background: url(../img/main/icon/search.png) 100% 100%; background-size: 100% 100%; text-indent: -9999px;}
+	header .member #search:checked~[type="text"] {margin-left: 15px; width: 130px; height: 18px; border-bottom: 1px solid #fff; font-size: 14px; font-weight: 400; text-indent: 5px;}
+	header .member #search:checked~.click {display: none;}
+	header .member #search:checked~.submit {display: block; background: url(../img/main/icon/search_active.png) 100% 100%; background-size: 100% 100%;}
+	
+	header h1 {position: absolute; top: 20px; left: 50%; transform: translateX(-50%); text-indent: -9999px;}
+	header h1 a {display: block;}
+	header h1 a img {display: block; width: 95px; height: 95px;}
+	
+	header nav {font-size: 0;}
+	header nav .menu {float: left; margin-top: 65px; width: 180px; height: 70px; font-size: 18px; font-weight: 400; text-transform: uppercase; text-align: center; line-height: 70px; cursor: pointer;}
+	header nav .menu:nth-child(1) {color: #e31836;}
+	header nav .menu:nth-child(4) {margin-left: 120px;}
+	header nav .menu a {display: block; height: 100%;}
+	header nav .menu .pop {display: none; position: relative; z-index: 1; padding: 10px; width: 100%; background-color: rgba(0,0,0,0.65); border-top: 1px solid #e31836;}
+	header nav .menu:nth-child(6) .pop {padding: 0;}
+	header nav .menu .pop li {color: #fff; line-height: 40px; font-size: 16px; font-weight: 300;}
+	header nav .menu .pop li:hover {color: #e31836}
+
+/* ----------------------FOOTER-------------------------*/
+
+	footer {height: 320px; color: #fff; font-weight: 300; background-color: #000;}
+	footer nav {padding: 60px 0; text-align: center;}
+	footer nav a {position: relative; padding: 0 25px}
+	footer nav a:hover {color: #e31836;}
+	footer nav a:nth-child(1) {font-weight: 700;}
+	footer nav a:not(:nth-child(1)):before {content:""; position: absolute; top: 3px; left: 0px; width: 1px; height: 14px; background-color: #fff;}
+	footer .ft_cnt {text-align: center;}
+
+/*-----------------------SUBNAV + H3 ------------------------*/
+
+	.subnav {width: 100%;}
+	.subnav h2 {width: 100%; height: 186px; text-align: center;}
+	.subnav h2 a {color: #fff; font-size: 42px; font-weight: 500; line-height: 186px; text-transform: uppercase;}
+	.subnav .navBar {position: relative; width: 100%; height: 50px; background-color: #aa0202;}
+	.subnav .navBar .inner>a {float: left; position: relative; padding: 0 25px; color: #fff; font-size: 14px; line-height: 50px;}
+	.subnav .navBar .inner>a:before {content:""; position: absolute; top: 0; left: 0; width: 2px; height: 50px; background-image: url(../img/main/subnavBar.png);}
+	.subnav .navBar .inner .home {padding: 0 20px; width: 75px; text-align: center;}
+	.subnav .navBar .home i {display: inline-block; margin-right: 6px; width: 12px; height: 12px; background-image: url(../img/main/icon/home.png); background-size: 100% auto; background-position: 50% 100%;}
+	.subnav .navBar .sub {width: 155px;}
+	.subnav .navBar .now {width: 180px;}
+	.subnav .navBar .now i {position: absolute; top: 50%; right: 13px; border-style: solid; border-width: 5px 5px 0 5px; border-top-color: #fff; transform: translateY(-50%);}
+	.subnav .navBar .now:after {content:""; position: absolute; top: 0; right: 0; width: 2px; height: 50px; background-image: url(../img/main/subnavBar.png);}
+	.subnav .navBar .subpop {display: none; position: absolute; top: 100%; left: 230px; z-index: 3; padding: 10px; width: 179px; color: #fff; font-size: 14px; line-height: 40px; border-width: 0px 1px 1px; border-color: #333; background-color: rgba(44,5,5,1); box-shadow: 0, 1px, 1px, rgba(0,0,0,0.3);}
+	.subnav .navBar .subpop li {padding: 0 15px;}
+	.subnav .navBar .subpop li:hover {background-color: rgba(255,255,255,0.2);}
+	.subnav .navBar .subpop li a {display: block;}
+
+	h3 {margin-bottom: 70px; text-align: center;}
+	h3 b {font-size: 36px; text-transform: uppercase;}
+	h3 i {font-size: 26px;}
+
+	.contents {padding: 70px 0;}
+	.selected {color: #fff; background-color: #ed1c24;}
+
+	.buttonWrap {margin-bottom: 70px; font-size: 0;}
+	.buttonWrap button {display: inline-block; height: 50px; border: 1px solid #ddd; font-size: 20px; font-weight: 300; font-family: Roboto, 'Noto Sans KR', sans-serif;;}
+	.buttonWrap button:hover {background-color: rgba(0,0,0,0.08);}
+	.buttonWrap button.selected {color: #fff; background-color: #e31836;}
+
+/*-----------------------HISTORY-----------------------------*/
+
+	#history {}
+	#history .subnav h2 {background-image: url(../img/main/subnav_01.jpg);}
+
+	#history .buttonWrap button {width: 20%;}
+	#history .buttonWrap button.selected {color: #fff; background-color: #e31836;}
+
+	#history h4 {margin: 0 auto 70px; width: 162px; height: 58px; background-image: url(../img/main/2018.png); text-indent: -9999px;}
+	#history .historyWrap {position: relative; margin-bottom: 70px;}
+	#history .historyWrap li {position: relative;}
+	#history .historyWrap li:after {content:""; display: block; clear: both;}
+	#history .historyWrap li .month{text-align: center;}
+	#history .historyWrap li .month b {display: inline-block; color: #555; font-size: 48px; height: 48px; letter-spacing: -2px;}
+	#history .historyWrap li .month i {display: inline-block; font-size: 16px; line-height: 16px;}
+	#history .historyWrap li .thumb {position: absolute; width: 520px; background-color: pink;}
+	#history .historyWrap li:nth-child(odd) .thumb {left: 0;}
+	#history .historyWrap li:nth-child(even) .thumb {right: 0;}
+	#history .historyWrap li .thumb img {display: block;}
+	#history .historyWrap li .detail{margin: 10px 0; padding: 5px 0; width: 601px;}
+	#history .historyWrap li .detail em {color: #333; font-weight: 500;}
+	#history .historyWrap li .detail em:after {content: "일";}
+	#history .historyWrap li .detail span {margin: 0 8px;}
+	#history .historyWrap li:nth-child(odd) .thumb{float: left;}
+	#history .historyWrap li:nth-child(odd) .detail{float: right; padding-left: 81px; border-left: 1px solid #333;}
+	#history .historyWrap li:nth-child(even) .thumb {float: right;}
+	#history .historyWrap li:nth-child(even) .detail {float: left; padding-right: 81px; border-right: 1px solid #333;}
+	#history .historyWrap li:nth-child(even) .detail li {float: right;}
+
+	/*------------------------thumb--------------------------*/
+	
+		#history .historyWrap li:nth-child(1) .thumb {top: 45px;}
+		#history .historyWrap li:nth-child(2) .thumb {top: 70px;}
+		#history .historyWrap li:nth-child(3) .thumb {top: 50px;}
+		#history .historyWrap li:nth-child(4) .thumb {top: 60px;}
+		#history .historyWrap li:nth-child(5) .thumb {top: 40px;}
+		#history .historyWrap li:nth-child(6) .thumb {top: 70px;}
+		#history .historyWrap li:nth-child(7) .thumb {top: 40px;}
+		#history .historyWrap li:nth-child(8) .thumb {top: 50px;}
+		#history .historyWrap li:nth-child(9) .thumb {top: 40px;}
+		#history .historyWrap li:nth-child(10) .thumb {top: 40px;}
+
+
+/*-----------------------PLAYERS-----------------------------*/
+	#players {}
+	#players .subnav h2 {background-image: url(../img/main/subnav_02.jpg);}
+
+	#players .buttonWrap button {width: 33.3333333%;}
+	#players .playersWrap {}
+	#players .playersWrap ul {overflow: hidden;}
+	#players .playersWrap ul li {float: left; padding: 10px; width: 273px; height: 400px; background-color: #fff; border: 1px solid #bbb;}
+	#players .playersWrap ul li:not(:nth-child(4n+1)) {margin-left: 36px;}
+	#players .playersWrap ul li:nth-child(n+5) {margin-top: 36px;}
+	#players .playersWrap ul li .thumb {position: relative; width: 251px; height: 275px; background: #eee url(../img/player/player_15.png) 100% 100% no-repeat;	background-size: 100% 100%;}
+	#players .playersWrap ul li .thumb .backnumber {position: absolute; bottom: 2px; right: 13px; color: #ed1c24; font-size: 48px; line-height: 48px; letter-spacing: -2px; font-weight: 500; font-style: italic;}
+	#players .playersWrap ul li .info {position: relative; padding: 15px 5px;}
+	#players .playersWrap ul li .info i {position: absolute; top: 50px; left: 5px; width: 40px; height: 2px; background-color: #333;}
+	#players .playersWrap ul li .info .role {font-size: 18px;}
+	#players .playersWrap ul li .info .name {margin-top: 15px; font-size: 24px; font-weight: 500;}
+
+/*--------------------SCHEDULE---------------------------*/
+
+	#schedule {}
+	#schedule .subnav h2 {background-image: url(../img/main/subnav_03.jpg);}
+
+	#schedule .buttonWrap button {width: 50%;}
+	
+	#calendar {text-align: center;}
+	#calendar nav {display: inline-block; margin: 0 auto 70px; font-size: 18px;}
+	#calendar nav:after {content:""; display: block; clear: both;}
+	#calendar nav a.btn{float: left; margin: 0 20px; line-height: 38px;}
+	#calendar nav a.btn:hover {color : #e31836;}
+	#calendar nav a.btn.prev{}
+	#calendar nav a.btn.next{}
+	#calendar nav .selectArea {float: left;}
+	#calendar nav .selectArea>div{float: left; position: relative;}
+	#calendar nav .selectArea>div input {padding: 5px 15px 5px 5px; color: #000; font-size: 18px; font-family: Roboto; font-weight: 300; line-height: 26px; text-align: center; background-color: transparent;  border: 1px solid #aaa; border-radius: 3px;}
+	#calendar nav .selectArea>div.clicked input {border: 1.5px solid #333;}
+	#calendar nav .selectArea>div i {margin-left: 5px;}
+	#calendar nav .selectArea>div:after {content:""; position: absolute; top: 17px; right: 32px; border-style: solid; border-width: 7px 5px 0 5px; border-color: transparent; border-top-color: #999;}
+	#calendar nav .selectArea>div.clicked:after {border-style: solid; border-width: 0px 5px 7px 5px; border-color: transparent; border-bottom-color: #e31836; }
+	#calendar nav .selectArea>div ul {position: absolute; z-index: 3; top: 100%; left: 1px; margin: -1px; padding: 5px; border: 1px solid #aaa; background-color: rgba(255,255,255,0.7);}
+	#calendar nav .selectArea>div ul li {line-height: 32px;}
+	#calendar nav .selectArea>div ul li:hover {background-color: rgba(0,0,0,0.15);}
+	#calendar nav .selectArea .selectYear {}
+	#calendar nav .selectArea .selectYear input {width: 90px;}
+	#calendar nav .selectArea .selectYear i {}
+	#calendar nav .selectArea .selectYear ul {width: 90px;}
+	#calendar nav .selectArea .selectMonth {margin-left: 15px;}
+	#calendar nav .selectArea .selectMonth input {width: 55px;}
+	#calendar nav .selectArea .selectMonth i {}
+	#calendar nav .selectArea .selectMonth ul {width: 55px;}
+	
+
+	#calendar .scheduleWrap {margin: auto;}
+	#calendar table {border-collapse: collapse;}
+	#calendar table tr {}
+	#calendar table tr th{width: 171px; height: 42px; text-transform: uppercase; background-color: #f0f0f0; font-size: 20px; font-weight: 300; border: 1px solid #aaa;}
+	#calendar table tr th:first-child {background-color: rgba(237,28,36,0.9); color: #fff;}
+	#calendar table tr td {position: relative; padding: 10px 0; width: 171px; height: 190px; border: 1px solid #aaa; text-align: center;}
+	#calendar table tr td:hover {background-color: rgba(0,0,0,0.05);}
+	#calendar table tr td.today {background-color: rgba(237,28,36,0.15);}
+	#calendar table tr td.today .dateNumber {font-weight: 500;}
+	#calendar table tr td .dateNumber {position: absolute; z-index: 1; top: 12px; right: 10px; font-size: 21px; line-height: 21px;}
+	#calendar table tr td .dateNumber:after {content:""; position: absolute; top: 25px; right: -2px; z-index: 1; width: 26px; height: 1px; background-color: #888;}
+	#calendar table tr td .dateNumber.today:before {content:""; position: absolute; top: -6px; left: -4px; width: 32px; height: 32px; background-color: rgba(0,0,0,0.1); border-radius: 50%;}
+	#calendar table tr td:first-child .dateNumber {color: #ed1c24;}
+	#calendar table tr td .verse {position: relative;}
+	#calendar table tr td .verse .logo {display: inline-block; margin-top: 28px; width: 70px; height: 50px; background-size: 78%; text-indent: -9999px;}
+	#calendar table tr td .verse .logo.team1 {margin-right: 6px;}
+	#calendar table tr td .verse .logo.team2 {margin-left: 6px;}
+	#calendar table tr td .verse em {position: absolute; top: 22px; left: 50%; font-size: 18px; font-weight: 400; transform: translateX(-50%); line-height: 70px;}
+	#calendar table tr td .score {margin-top: 4px; font-size: 24px; line-height: 26px;}
+	#calendar table tr td .score b {display: inline-block; width: 30px;}
+	#calendar table tr td .score b.win {color: #e31836;}
+	#calendar table tr td .loc {margin-top: 7px; font-size: 15px;}
+	#calendar table tr td .time {margin-top: 5px; font-size: 16px;}
+
+/*----------------------------SEATS---------------------------------*/
+
+	#seats {}
+	#seats .subnav h2 {background-image: url(../img/main/subnav_04.jpg);}
+
+	#seats .contents {}
+	#seats .contents .seat_info {overflow: hidden; margin-bottom: 70px;}
+	#seats .contents .seat_info .info_left{float: left; position: relative; width: 50%; height: 600px;}
+	#seats .contents .seat_info .info_left img {display: block; float: right; margin: 6px auto; height: 600px;}
+	#seats .contents .seat_info .info_left .hover {position: absolute; top: 0; right: 0;}
+	#seats .contents .seat_info .info_left .hover img {height: 600px;}
+	#seats .contents .seat_info .info_right {float: right; width: 50%;}
+	#seats .contents .seat_info .info_right ul {margin: auto; padding: 0 150px; width: 600px; font-size: 16px;}
+	#seats .contents .seat_info .info_right ul li {position: relative; height: 28px;}
+	#seats .contents .seat_info .info_right ul li:hover {font-weight: 700;}
+	#seats .contents .seat_info .info_right ul li:nth-child(1) {height: 35px; border-bottom: 1px solid #888;}
+	#seats .contents .seat_info .info_right ul li:nth-child(1) i {margin-top: -3px;}
+	#seats .contents .seat_info .info_right ul li:nth-child(2) {margin-top: 21px;}
+	#seats .contents .seat_info .info_right ul li i {position: absolute; top: 50%; left: 0; width: 15px; height: 15px; border: 1px solid #aaa; transform: translateY(-50%);}
+	#seats .contents .seat_info .info_right ul li a {display: block; padding-left: 30px; line-height: 28px;}
+
+	/*------------------------SEAT COLOR-------------------------*/	
+
+		#seats .contents .seat_info .info_right ul li:nth-child(1) i {background-color: #333;}
+		#seats #seat_friendly i {background-color: #00a1e9;}
+		#seats #seat_cheer i {background-color: #ce251e;}
+		#seats #seat_chair i {background-color: #b81c81;}
+		#seats #seat_rocket i {background-color: #f8b62c;}
+		#seats .table_1 i {background-color: #515da9;}
+		#seats .table_2 i {background-color: #0c3342;}
+		#seats #seat_table i {background-color: #0c3342;}
+		#seats #seat_mini i {background-color: #eb8727;}
+		#seats #seat_skybox i {background-color: #70c8d6;}
+		#seats #seat_skytable i {background-color: #1f9c84;}
+		#seats #seat_homerun i {background-color: #e5007f;}
+		#seats #seat_out_family i {background-color: #b28147;}
+		#seats #seat_payco_family i {background-color: #b28147;}
+		#seats #seat_open_bbq i {background-color: #6b3908;}
+		#seats #seat_emart_bbq i {background-color: #6b3908;}
+		#seats #seat_hite i {background-color: #515da9;}
+		#seats #seat_choga i {background-color: #006834;}
+		#seats #seat_tgreen i {background-color: #60831d;}
+		#seats #seat_dream_live i {background-color: #6cbb46;}
+		#seats #seat_happy_live i {background-color: #6cbb46;}
+		#seats #seat_general i {background-color: #dddddd;}
+
+		#seats [href="#seat_friendly"] i {background-color: #00a1e9;}
+		#seats [href="#seat_cheer"] i {background-color: #ce251e;}
+		#seats [href="#seat_chair"] i {background-color: #b81c81;}
+		#seats [href="#seat_rocket"] i {background-color: #f8b62c;}
+		#seats [href="#seat_table"] i {background-color: #515da9;}
+		#seats [href="#seat_table"] i {background-color: #0c3342;}
+		#seats [href="#seat_mini"] i {background-color: #eb8727;}
+		#seats [href="#seat_skybox"] i {background-color: #70c8d6;}
+		#seats [href="#seat_skytable"] i {background-color: #1f9c84;}
+		#seats [href="#seat_homerun"] i {background-color: #e5007f;}
+		#seats [href="#seat_out_family"] i {background-color: #b28147;}
+		#seats [href="#seat_payco_family"] i {background-color: #b28147;}
+		#seats [href="#seat_open_bbq"] i {background-color: #6b3908;}
+		#seats [href="#seat_emart_bbq"] i {background-color: #6b3908;}
+		#seats [href="#seat_hite"] i {background-color: #515da9;}
+		#seats [href="#seat_choga"] i {background-color: #006834;}
+		#seats [href="#seat_tgreen"] i {background-color: #60831d;}
+		#seats [href="#seat_dream_live"] i {background-color: #6cbb46;}
+		#seats [href="#seat_happy_live"] i {background-color: #6cbb46;}
+		#seats [href="#seat_general"] i {background-color: #dddddd;}
+
+	#seats .contents .seat_table {}
+	#seats .contents .seat_table table {margin: auto; width: 1000px; border-collapse: collapse; border-width: 2px 0px; border-color: #aaa; }
+	#seats .contents .seat_table table thead {}
+	#seats .contents .seat_table table thead th {height: 40px; color: #fff; background-color: #ce251e; border: 1px solid #fff; font-weight: 300;}
+	#seats .contents .seat_table table tbody tr td {padding: 8px 20px; font-size: 15px; border: 1px solid #ddd;}
+	#seats .contents .seat_table table tbody tr td[class*='week'] {text-align: center;}
+	#seats .contents .seat_table table tbody tr td i {display: inline-block; margin-right: 12px; width: 15px; height: 15px; border-width: 1px; border-color: #aaa;}
+	
+	#seats .contents .notice {margin: 20px auto; width: 1000px;}
+	#seats .contents .notice p {margin-top: 12px;}
+	#seats .contents .notice p i {color: #ce251e; font-weight: bold;}
+	#seats .contents .notice p em {margin-left: 15px; font-size: 14px;	text-decoration: underline;	}
+
+	#seats .contents .ticket_button {margin-top: 70px;}
+
+/*-------------------------SEATS GROUP----------------------------------*/
+
+	#seats_group {}
+	#seats_group .subnav h2 {background-image: url(../img/main/subnav_04.jpg);}
+
+	#seats_group .contents {}
+	
+	#seats_group .contents .student_info{margin-bottom: 90px;}
+	#seats_group .contents .student_info tbody tr td:nth-child(4),
+	#seats_group .contents .student_info tbody tr td:nth-child(5) {font-weight: 500;}
+	#seats_group .contents .company_info{margin-bottom: 70px;}
+	
+	#seats_group .contents h4 {position: relative; padding-left: 35px; color: #333; font-size: 22px; font-weight: bold;}
+	#seats_group .contents h4 i {position: absolute; top: 6px; left: 0; width: 22px; height: 22px; background-image: url(../img/seats/baseball.png); background-size: 100%;}
+	#seats_group .contents [class*="info"] {position: relative;}
+	#seats_group .contents table {margin: auto; margin-top: 30px; width: 100%; border-collapse: collapse; border-width: 2px 0px; border-color: #aaa; text-align: center;}
+	#seats_group .contents table tr {height: 40px;}
+	#seats_group .contents table thead tr th {padding: 10px; font-weight: 300; color: #fff; background-color: rgba(206, 37, 30, 0.91); border: 1px solid #fff;}
+	#seats_group .contents table tbody tr td {padding: 10px; border: 1px solid #ddd; line-height: 30px;}
+	
+	#seats_group .contents .group_info {margin-bottom: 70px; padding: 10px 50px; line-height: 35px; background-color: #f1f1f1;}
+	#seats_group .contents .group_info li {position: relative;}
+	#seats_group .contents .group_info li:before {content:""; position: absolute; top: 15px; left: -15px; width: 5px; height: 5px; background-color: #333; border-radius : 50%;}
+	
+	#seats_group .contents .download {overflow: hidden; margin: auto; width: 444px; text-align: center;}
+	#seats_group .contents .download a {float: left; padding: 5px; width: 210px; line-height: 35px; color: #555; border: 1.5px solid #ccc; border-radius: 3px; font-weight: 400; text-align: center;}
+	#seats_group .contents .download a+a {float: left; margin-left: 24px; padding: 5px; width: 210px; line-height: 35px; color: #555; border: 1.5px solid #ccc; border-radius: 3px; font-weight: 400; text-align: center;}
+	#seats_group .contents .download a:hover {color: #fff; background-color: #555; transition: background-color 0.2s, color 0.2s;}
+
+
+/*------------------------TEAM RANK-----------------------------------*/
+
+	#team_rank {}
+	#team_rank .subnav h2 {background-image: url(../img/main/subnav_03.jpg);}
+	
+	#team_rank .contents {margin-bottom: 90px;}
+	#team_rank .contents h3 {margin-bottom: 30px;}
+		
+	#team_rank .team_table {position: relative; padding-top: 90px;}
+	#team_rank .team_table .selectyear {position: absolute; top: 0; right: 0;}
+	#team_rank .team_table .selectyear .selector {display: inline-block; padding: 5px 10px 5px 5px; width: 90px; line-height: 26px; text-align: center; border: 1px solid #aaa; border-radius : 3px;}
+	#team_rank .team_table .selectyear .selector:after {content:""; position: absolute; top: 17px; right: 32px; border-style: solid; border-width: 7px 5px 0 5px; border-color: transparent; border-top-color: #999;}
+	#team_rank .team_table .selectyear .selector.clicked {border: 1.5px solid #333;}
+	#team_rank .team_table .selectyear .selector.clicked:after {border-style: solid; border-width: 0px 5px 7px 5px; border-color: transparent; border-bottom-color: #e31836; }
+
+	#team_rank .team_table .selectyear ul {display: none; position: absolute; z-index: 3; top: 100%; left: 1px; margin: -1px; padding: 5px; width: 90px; border: 1px solid #aaa; background-color: rgba(255,255,255,0.7); text-align: center;}
+	#team_rank .team_table .selectyear ul li {line-height: 32px;}
+	#team_rank table {width: 100%; font-size: 15px; border-collapse: collapse; border-width: 2px 0px; border-color: #aaa; text-align: center;}
+	#team_rank table tr th {padding: 10px; font-weight: 300; color: #fff; background-color: rgba(206, 37, 30, 0.91); border: 1px solid #fff;}
+	#team_rank table tr td {height: 45px; color: #444; border-width: 1px 0; border-color: #aaa;}
+	#team_rank table tr:hover td {background-color: rgba(0,0,0,0.05);}
+	#team_rank table tr td:nth-child(2) {font-weight: 500;}
+	#team_rank table tr td:nth-child(2):before {content:""; display: block; margin: 5px auto 0; width: 56px; height: 40px; background-size: 100% auto; background-position: 0 -8px;}
+	/*----------------------------------logo image---------------------------------*/
+		#team_rank table tr:nth-child(1) td:nth-child(2):before {background-image: url(../img/main/logo_doosan.png);}
+		#team_rank table tr:nth-child(2) td:nth-child(2):before {background-image: url(../img/main/logo_sk.png);}
+		#team_rank table tr:nth-child(3) td:nth-child(2):before {background-image: url(../img/main/logo_hanhwa.png);}
+		#team_rank table tr:nth-child(4) td:nth-child(2):before {background-image: url(../img/main/logo_nexen.png);}
+		#team_rank table tr:nth-child(5) td:nth-child(2):before {background-image: url(../img/main/logo_kia.png);}
+		#team_rank table tr:nth-child(6) td:nth-child(2):before {background-image: url(../img/main/logo_samsung.png);}
+		#team_rank table tr:nth-child(7) td:nth-child(2):before {background-image: url(../img/main/logo_lotte.png);}
+		#team_rank table tr:nth-child(8) td:nth-child(2):before {background-image: url(../img/main/logo_lg.png);}
+		#team_rank table tr:nth-child(9) td:nth-child(2):before {background-image: url(../img/main/logo_kt.png);}
+		#team_rank table tr:nth-child(10) td:nth-child(2):before {background-image: url(../img/main/logo_nc.png);}
+
+
+/*-------------------------------TICKETING------------------------------*/
+
+	#ticketing {}
+	#ticketing .subnav h2 {background-image: url(../img/main/subnav_04.jpg);}
+
+	#ticketing h4 {position: relative; margin-bottom: 25px; padding-left: 35px; color: #333; font-size: 22px; font-weight: bold;}
+	#ticketing h4 i {position: absolute; top: 6px; left: 0; width: 22px; height: 22px; background-image: url(../img/seats/baseball.png); background-size: 100%;}
+	#ticketing .info {margin-bottom: 60px;}
+	#ticketing .ticketing_info {margin: auto; width: 1000px;}
+	#ticketing .ticketing_info>div {background-color: #f1f1f1; padding: 20px 30px;}
+	#ticketing div p {line-height: 30px; counter-increment: list;}
+	#ticketing div p:before {content: counter(list)" . "; margin-right: 10px; color: #ce251e; font-weight: 500;}

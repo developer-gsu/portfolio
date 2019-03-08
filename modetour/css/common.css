@@ -1,0 +1,23 @@
+*, :after, :before {margin: 0; padding: 0; color: inherit; text-decoration: inherit; font-style: inherit; border: 0px solid transparent; background: transparent none 50% 50% no-repeat; box-sizing: border-box;}
+ul, ol {list-style: none;}
+table {table-layout: fixed;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: inherit;}
+label, a, [type="button"], [type="submit"], [type="reset"], button {cursor: pointer;}
+
+/*CLASS*/
+.clearfix:after {content:""; display: block; clear: both;}
+.ellipsis {text-overflow: ellipsis; overflow: hidden; white-space: nowrap}
+.hidden {display: none; width: 0; height: 0; visibility: hidden; opacity: 0;}
+.bold {font-weight: 700;}
+
+a.link {position: absolute; top: 50%; right: 0; margin-top: -9px; font-size: 13px; color: #555; font-weight: 500;}
+a.link:before {content:"바로가기";}
+a.link:after {content:""; display: inline-block; margin-left: 9px; width: 5px; height: 9px; background-image: url(../img/icon.png); background-position: -158px -50px;}
+a.link:hover {color:#297fb8; text-decoration: underline;}
+a.link:hover:after {background-position: -173px -50px;}
+
+/*GLOBAL*/
+#wrap {color: #111; font-family: "맑은 고딕","Malgun Gothic","Apple SD Gothic Neo","Dotum",Helvetica,Sans-serif; letter-spacing: -0.5px;}
+
+.inner {position: relative; margin: auto; width: 1100px;}
+[type="radio"], [type="checkbox"] {display: none;}

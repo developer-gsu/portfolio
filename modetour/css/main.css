@@ -1,0 +1,526 @@
+/* HEADER */
+header {position: relative; z-index: 10;}
+header .hdTop {position: absolute; top: 30px; left: 0; width: 100%; height: 46px;}
+header .hdTop h1 {position: absolute; top: 0px; left: 50%; margin-left: -78px;}
+header .hdTop h1 a {display: block; margin-top: 8px; width: 157px; height: 43px;}
+header .hdTop .gnb {float: left;}
+header .hdTop .gnb a {position: relative; font-size: 12px; line-height: 46px;}
+header .hdTop .gnb a:hover {text-decoration: underline;}
+header .hdTop .gnb a+a {margin-left: 13px;}
+header .hdTop .gnb a+a:before {content:""; position: absolute; top: 3px; left: -9px; width: 1px; height: 11px; background-color: #888;}
+header .hdTop .left a:last-child {position: relative; padding-left: 19px;}
+header .hdTop .left a .ico_dn {position: absolute; top: 2px; left: 0; width: 15px; height: 13px; background-image: url(../img/icon.png); background-position: -223px -625px;}
+header .hdTop .right {float: right; margin-right: 83px;}
+header .hdTop .category {position: absolute; top: -13px; right: 0;}
+header .hdTop .category .category_btn {display: block; padding: 1px 8px; width: 65px; height: 70px; background-color: #0daa62;}
+header .hdTop .category .category_btn i {position: absolute; left: 50%; margin-left: -10px; width: 20px; height: 3px; background-color: #fff;}
+header .hdTop .category .category_btn i:nth-of-type(1) {top: 15px;}
+header .hdTop .category .category_btn i:nth-of-type(2) {top: 22px;}
+header .hdTop .category .category_btn i:nth-of-type(3) {top: 29px;}
+header .hdTop .category .category_btn span {display: block; margin-top: 40px; color: #fff; font-size: 12px;}
+
+
+/*#CONTAINER*/
+#container {position: relative;}
+#container #banner_ad {position: absolute; z-index: 2; top: 304px; left: 50%; margin-left: -846px; width: 326px; height: 623px; background-image: url(../img/pop_up_1.png);}
+#container #banner_ad a {position: absolute; top: 150px; left: 15px; width: 202px; height: 83px; }
+#container aside {position: fixed; z-index: 15; top: 110px; left: 50%; margin-left: 570px;}
+#container aside a {display: block; margin-bottom: 10px; width: 112px;}
+#container #main {overflow: hidden; padding-top: 110px; height: 927px; background-image: url(../img/main_bg.jpg);}
+#container #main .main_left {float: left; width: 580px;}
+#container #main .main_left #searchWrap {margin-bottom: 20px; padding: 23px 30px 0; height: 174px; background-color: #36ad5b;}
+/*	#container #main .main_left #searchWrap {}~ */
+	#searchWrap h2 {margin-bottom: 18px; color: #fff; font-size: 20px; font-weight: bold;}
+	#searchWrap .barWrap {position: relative; z-index: 1; border-radius: 3px}
+	#searchWrap .barWrap .bar_select {position: relative; float: left; display: block; padding: 0 15px; width: 136px; font-size: 14px; font-weight: 500; letter-spacing: -1px; line-height: 44px; background-color: #fff; border-right: 1px solid #ccc; border-radius: 3px 0 0 3px}
+	#searchWrap .barWrap .bar_select:before {content:"인천/서울출발";}
+	#searchWrap .barWrap .bar_select:after {content:""; position: absolute; top: 20px; right: 15px; width: 9px; height: 5px; background-image: url(../img/icon.png); background-position: -253px 0;}
+	#searchWrap .barWrap ul {display: none; position: absolute; top: 100%; left: -1px; width: 137px; background-color: #fff;}
+	#searchWrap .barWrap ul li {line-height: 28px;}
+	#searchWrap .barWrap ul li label {padding-left: 5px;}
+	#searchWrap .barWrap .bar_text {float: left; position: relative; padding: 11px 13px 15px; width: 293px; height: 44px; background-color: #fff;}
+	#searchWrap .barWrap .bar_text [type="text"] {display: block; width: 100%; height: 20px; font-size: 14px; font-weight: bold; vertical-align: top;}
+	#searchWrap .barWrap .bar_text [type="text"]::placeholder {font-weight: 500;}
+	#searchWrap .barWrap .bar_text .bar_detail {display: none; position: absolute; top: 100%; left: 0; width: 383px; font-size: 12px; border: 1px solid #333; background-color: #fff;}
+	#searchWrap .barWrap .bar_text :focus~.bar_detail {display:block}
+	#searchWrap .barWrap .bar_text .bar_detail .bar_detail_tit {padding-left: 12px; line-height: 30px; background-color: #fffeeb; border-bottom: 1px solid #e9dfa6;}
+	#searchWrap .barWrap .bar_text .bar_detail .bar_detail_tit i {color: #ed4949; font-weight: bold;}
+	#searchWrap .barWrap .bar_text .bar_detail .bar_detail_cnt {padding: 26px 14px 28px; color: #555; line-height: 18px;}
+	#searchWrap .barWrap .bar_text .bar_detail .bar_detail_cnt .big {margin-bottom: 14px; font-size: 13px; line-height: 19px;}
+	#searchWrap .barWrap [type="submit"] {float: left; width: 91px; line-height: 44px; color: #fff; font-size: 15px; background-color: #0e7940; border-radius: 0 3px 3px 0;}
+	#searchWrap .barWrap [type="submit"]:hover {background-color: #0c6636;}
+
+
+/*	bar_Wrap checked~	*/
+
+	#searchWrap .barWrap #bar_select_btn:checked~.bar_select {outline: 1px solid #4d90fe;}
+	#searchWrap .barWrap #bar_select_btn:checked~ul {display: block; padding: 10px; border: 1px solid #333;}
+	#searchWrap .barWrap ul li:hover,
+	#searchWrap .barWrap #bar_select_ic:checked~ul li:nth-of-type(1),
+	#searchWrap .barWrap #bar_select_bs:checked~ul li:nth-of-type(2),
+	#searchWrap .barWrap #bar_select_dg:checked~ul li:nth-of-type(3),
+	#searchWrap .barWrap #bar_select_ma:checked~ul li:nth-of-type(4),
+	#searchWrap .barWrap #bar_select_cj:checked~ul li:nth-of-type(5),
+	#searchWrap .barWrap #bar_select_jj:checked~ul li:nth-of-type(6),
+	#searchWrap .barWrap #bar_select_yy:checked~ul li:nth-of-type(7) {line-height: 28px; color: #fff; background-color: #3f4b5b;}
+
+	#searchWrap .barWrap #bar_select_ic:checked~.bar_select:before {content:"인천/서울출발";}
+	#searchWrap .barWrap #bar_select_bs:checked~.bar_select:before {content:"부산출발";}
+	#searchWrap .barWrap #bar_select_dg:checked~.bar_select:before {content:"대구출발";}
+	#searchWrap .barWrap #bar_select_ma:checked~.bar_select:before {content:"무안출발";}
+	#searchWrap .barWrap #bar_select_cj:checked~.bar_select:before {content:"청주출발";}
+	#searchWrap .barWrap #bar_select_jj:checked~.bar_select:before {content:"제주출발";}
+	#searchWrap .barWrap #bar_select_yy:checked~.bar_select:before {content:"양양출발";}
+
+	#searchWrap .searchKeyword {padding: 15px 0 0 48px; font-size: 0; text-align: center;}
+	#searchWrap .searchKeyword div a:hover {text-decoration: underline;}
+	#searchWrap .searchKeyword .keyword {float: left;}
+	#searchWrap .searchKeyword .keyword a {position: relative; color:#fff; font-size: 13px;}
+	#searchWrap .searchKeyword .keyword a+a {margin-left: 19px; color:#fff; font-size: 13px;}
+	#searchWrap .searchKeyword .keyword a+a:before {content:""; position: absolute; top: 6px; left: -10px; width: 1px; height: 10px; background-color: #7dca8c;}
+	#searchWrap .searchKeyword .view_all {float: right;}
+	#searchWrap .searchKeyword .view_all a {color: #9effb3; font-size: 13px;}
+	#searchWrap .searchKeyword .view_all a:after {content:""; display: inline-block; margin-left: 5px; width: 5px; height: 9px; background-image: url(../img/icon.png); background-position: -296px -36px;}
+
+/*	#container #main .main_left #foreignWrap {}~ */
+	#foreignWrap {margin-bottom: 20px; padding: 25px 30px 0; height: 367px; background-color: #fff;}
+	#foreignWrap .frTop {position: relative;}
+	#foreignWrap .frTop h2 {padding-bottom: 10px; width: 520px; height: 37px; border-bottom: 1px solid #ccc; font-size: 20px; font-weight: bold;}
+
+	#foreignWrap .frCnt {padding-top: 24px;}
+	#foreignWrap .frCnt ul {overflow: hidden;}
+	#foreignWrap .frCnt ul li {float: left; margin-bottom: 20px; width: 130px; height: 116px;}
+	#foreignWrap .frCnt ul li a{}
+	#foreignWrap .frCnt ul li a .thumb{display: block; position: relative;}
+	#foreignWrap .frCnt ul li a .thumb img {display: block; margin: auto; width: 88px; height: 88px;}
+	#foreignWrap .frCnt ul li:not(:nth-child(8)):hover a .thumb:before {content:""; position: absolute; top: 0; left: 21px; width: 88px; height: 88px; border: 3px solid #0daa62; border-radius: 50%}
+	#foreignWrap .frCnt ul li a .info{display: block; margin-top: 6px; font-weight: 500; font-size: 14px; text-align: center;}
+	#foreignWrap .frCnt ul li:hover a .info{color:#0daa62;}
+
+/*#container #main .main_left #themeWrap~ */
+	#themeWrap {padding: 23px 0 0 16px; height: 176px; background-color: #fff;}
+	#themeWrap .thTop {margin-bottom: 8px;}
+	#themeWrap .thTop h2 {padding-left: 18px; font-size: 20px; font-weight: bold;}
+	#themeWrap .thCnt {}
+	#themeWrap .thCnt ul {overflow: hidden;}
+	#themeWrap .thCnt ul li {float: left; width: 91px; height: 98px;}
+	#themeWrap .thCnt ul li a {display: block; width: 100%;}
+	#themeWrap .thCnt ul li a span {display: block; margin: 0 auto;}
+	#themeWrap .thCnt ul li a .icon {background-image: url(../img/icon.png);}
+	#themeWrap .thCnt ul li a .tit {text-align: center; font-weight: 500; font-size: 14px;}
+	#themeWrap .thCnt ul li:hover a .tit {color: #0daa62;}
+
+
+#container #main .main_right {float: right; width: 500px;}
+
+#container #main .main_right #freeTrip {position: relative; margin-bottom: 20px;}
+	#freeTrip {padding: 21px 30px 0; height: 367px; background-color: #fff;}
+	#freeTrip .freeTop {position: relative; margin-bottom: 18px;}
+	#freeTrip .freeTop h2 {position: relative; font-size: 20px; font-weight: 700;}
+	
+	#freeTrip .freeSearchWrap {}
+	#freeTrip .freeSearchWrap .searchTop {}
+	#freeTrip .freeSearchWrap .searchTop .searchTopLeft {position: relative; float: left; margin-bottom: 13px;}
+	#freeTrip .freeSearchWrap .searchTop .searchTopLeft .searchSelect {position: relative; z-index: 1; margin-bottom: 10px;}
+	#freeTrip .freeSearchWrap .searchTop .searchTopLeft .searchSelect #depart{}
+		#freeTrip #depart {float: left; position: relative; width: 165px; height: 38px; border: 1px solid #ccc; border-radius: 3px; background-color: #f8f8f8;}
+		#freeTrip #depart .departSelect {display: block; position: relative; padding-left: 8px; font-size: 14px; line-height: 33px;}
+		#freeTrip #depart .departSelect:before {content:"인천/서울출발";}
+		#freeTrip #depart .departSelect i {position: absolute; top: 0px; right: 0px; margin: -1px; border: 1px solid #04bc50;  width: 38px; height: 38px; background-color: #0daa62; border-radius: 0 3px 3px 0;}
+		#freeTrip #depart .departSelect i:before {content:""; position: absolute; top: 15px; left: 13px; width: 12px; height: 17px; background-image: url(../img/icon.png); background-position: -188px -36px;}
+		#freeTrip #depart ul {display: none; position: absolute; top: 100%; left: -1px; right: -1px; background-color: #fff; padding: 10px; border: 1px solid #333; background-color: #fff;}
+		#freeTrip #depart ul li {font-size: 15px; line-height: 28px;}
+		#freeTrip #depart ul li label {padding-left: 5px;}
+	
+	/*#freeTrip CHECKED */
+		#freeTrip #depart #departBtn:checked~ul {display: block;}
+		#freeTrip #depart ul li:hover,
+		#freeTrip #depart #depart_ic:checked~ul li:nth-of-type(1),
+		#freeTrip #depart #depart_bs:checked~ul li:nth-of-type(2) {color: #fff; background-color: #3f4b5b;}
+		#freeTrip #depart #depart_ic:checked~.departSelect:before {content:"인천/서울출발";}
+		#freeTrip #depart #depart_bs:checked~.departSelect:before {content:"부산출발";}
+
+	#freeTrip .freeSearchWrap .searchTop .searchTopLeft .searchSelect #date {}
+		#freeTrip #date {float: left; margin-left: 10px;}
+		#freeTrip #date .date_text {float: left; width: 127px; height: 38px; padding: 0 8px; border-width: 1px 0 1px 1px; border-color: #ccc; font-size: 14px; color: #aaa; line-height: 33px; background-color: #fafafa;}
+		#freeTrip #date .date_btn {float: left; position: relative; width: 38px; height: 38px; background-color: #0daa62; border-radius: 0 3px 3px 0}
+		#freeTrip #date .date_btn:after {content:""; position: absolute; top: 10px; left: 10px; width: 17px; height: 16px; background-image: url(../img/icon.png); background-position: 0 -126px;}
+		#freeTrip #date .dateSelect {display: none; position: absolute; top: 0px; left: 0px; padding: 16px 0 10px; width: 340px; height: 473px; background-color: #fff; border: 1px solid #333; text-align: center;}
+		#freeTrip #date .dateSelect .calender_title {margin-bottom: 6px; height: 32px; font-size: 18px; line-height: 30px; font-weight: 700;}
+		#freeTrip #date .dateSelect .month_select {position: relative; margin-bottom: 10px;}
+		#freeTrip #date .dateSelect .month_select a {position: absolute; top: 11px; width: 9px; height: 18px; background-image: url(../img/icon.png); text-indent: -9999px;}
+		#freeTrip #date .dateSelect .month_select .next {right: 20px; background-position: -110px -127px;}
+		#freeTrip #date .dateSelect .month_select .next:hover {background-position: -72px -127px;}
+		#freeTrip #date .dateSelect .month_select .prev {left: 20px; background-position: -91px -127px;}
+		#freeTrip #date .dateSelect .month_select .prev:hover {left: 20px; background-position: -53px -127px;}
+		#freeTrip #date .dateSelect .month_select .month_list {position: relative; display: inline-block;}
+		#freeTrip #date .dateSelect .month_select .month_list>label{display: block; position: relative; padding: 0 15px; width: 150px; height: 38px; color: #333; font-size: 14px; font-weight: 500; line-height: 35px; border: 1px solid #ccc; text-align: left;}
+		#freeTrip #date .dateSelect .month_select .month_list>label:before {content:"2018년 12월";}
+		#freeTrip #date .dateSelect .month_select .month_list>label:after {content:""; position: absolute; top: 16px; right: 15px; width: 9px; height: 5px; background-image: url(../img/icon.png); background-position: -253px 0;}
+		#freeTrip #date .dateSelect .month_select .month_list ul {display: none; position: absolute; z-index: 1; top: 100%; left: 0; right: 0; margin-top: -1px; padding: 10px; background-color: #fff; border: 1px solid #333; text-align: left;}
+		#freeTrip #date .dateSelect .month_select .month_list ul li {padding-left: 5px; height: 28px; color: #333; font-size: 14px; line-height: 26px;}
+		#freeTrip #date .dateSelect .month_select .month_list #month:checked~ul {display: block;}
+
+		/* checked */
+			#freeTrip #date .dateSelect .month_select .month_list #month:checked~.month_ap {border-color: #333;}
+			#freeTrip #date .dateSelect .month_select .month_list #dec:checked~.month_ap:before {content:"2018년 12월";}
+			#freeTrip #date .dateSelect .month_select .month_list #jan:checked~.month_ap:before {content:"2019년 01월";}
+			#freeTrip #date .dateSelect .month_select .month_list #feb:checked~.month_ap:before {content:"2019년 02월";}
+			#freeTrip #date .dateSelect .month_select .month_list #mar:checked~.month_ap:before {content:"2019년 03월";}
+			#freeTrip #date .dateSelect .month_select .month_list #apr:checked~.month_ap:before {content:"2019년 04월";}
+			#freeTrip #date .dateSelect .month_select .month_list ul li:hover,
+			#freeTrip #date .dateSelect .month_select .month_list #dec:checked~ul li:nth-child(1),
+			#freeTrip #date .dateSelect .month_select .month_list #jan:checked~ul li:nth-child(2),
+			#freeTrip #date .dateSelect .month_select .month_list #feb:checked~ul li:nth-child(3),
+			#freeTrip #date .dateSelect .month_select .month_list #mar:checked~ul li:nth-child(4),
+			#freeTrip #date .dateSelect .month_select .month_list #apr:checked~ul li:nth-child(5) {color: #fff; background-color: #3f4b5b;}
+		
+		#freeTrip #date .dateSelect .calender {padding-bottom: 10px; border-bottom: 1px solid #ccc;}
+		#freeTrip #date .dateSelect .calender table {width: 100%; height: 282px; color: #555; font-size: 14px; line-height: 17px; border-collapse: collapse;}
+		#freeTrip #date .dateSelect .calender table tr {}
+		#freeTrip #date .dateSelect .calender table tr td:nth-child(1),
+		#freeTrip #date .dateSelect .calender table tr th:nth-child(1) {color: #ed4949}
+		#freeTrip #date .dateSelect .calender table tr td:nth-child(7),
+		#freeTrip #date .dateSelect .calender table tr th:nth-child(7) {color: #297fb8}
+		#freeTrip #date .dateSelect .calender table tr th {height: 36px; border-width: 1px 0; border-color: #ccc;}
+		#freeTrip #date .dateSelect .calender table tr td {height: 40px;}
+		#freeTrip #date .dateSelect .calender table tr td label {display: block; position: relative; padding-top: 18px; width: 48px; height: 40px; line-height: 17px;}
+		#freeTrip #date .dateSelect .calender table tr td label:hover {background-color: #fff0f0;}
+		#freeTrip #date .dateSelect .calender table tr td label:before {content:"출발일"; position: absolute; top: 3px; left: 50%; width: 40px; color: #fff; font-size: 11px; font-family: Dotum; letter-spacing: -2px; transform: translateX(-50%); font-weight: normal;}
+		#freeTrip #date .dateSelect .calender table tr td label:hover:before {color: #fff0f0;}
+
+		#freeTrip #date .dateSelect .btn {display: inline-block; margin-top: 20px; padding: 1px 6px; width: 104px; height: 32px; color: #fff; font-size: 0; line-height: 30px; border-radius: 3px; }
+		#freeTrip #date .dateSelect .btn.close {margin-right: 3px; background-color: #aaa; font-size: 12px;}
+		#freeTrip #date .dateSelect .btn.close:hover {background-color: #8e9599;}
+		#freeTrip #date .dateSelect .btn.complete {margin-left: 3px;background-color: #3f4b5b; font-size: 12px;}
+		#freeTrip #date .dateSelect .btn.complete:hover {background-color: #323641;}
+
+		/*checked~*/ 
+			#freeTrip #d-1st:checked~table tbody tr td #d-1st_select,
+			#freeTrip #d-2nd:checked~table tbody tr td #d-2nd_select,
+			#freeTrip #d-3rd:checked~table tbody tr td #d-3rd_select,
+			#freeTrip #d-4th:checked~table tbody tr td #d-4th_select,
+			#freeTrip #d-5th:checked~table tbody tr td #d-5th_select,
+			#freeTrip #d-6th:checked~table tbody tr td #d-6th_select,
+			#freeTrip #d-7th:checked~table tbody tr td #d-7th_select,
+			#freeTrip #d-8th:checked~table tbody tr td #d-8th_select,
+			#freeTrip #d-09th:checked~table tbody tr td #d-09th_select,
+			#freeTrip #d-10th:checked~table tbody tr td #d-10th_select,
+			#freeTrip #d-11th:checked~table tbody tr td #d-11th_select,
+			#freeTrip #d-12th:checked~table tbody tr td #d-12th_select,
+			#freeTrip #d-13th:checked~table tbody tr td #d-13th_select,
+			#freeTrip #d-14th:checked~table tbody tr td #d-14th_select,
+			#freeTrip #d-15th:checked~table tbody tr td #d-15th_select,
+			#freeTrip #d-16th:checked~table tbody tr td #d-16th_select,
+			#freeTrip #d-17th:checked~table tbody tr td #d-17th_select,
+			#freeTrip #d-18th:checked~table tbody tr td #d-18th_select,
+			#freeTrip #d-19th:checked~table tbody tr td #d-19th_select,
+			#freeTrip #d-20th:checked~table tbody tr td #d-20th_select,
+			#freeTrip #d-21st:checked~table tbody tr td #d-21st_select,
+			#freeTrip #d-22nd:checked~table tbody tr td #d-22nd_select,
+			#freeTrip #d-23rd:checked~table tbody tr td #d-23rd_select,
+			#freeTrip #d-24th:checked~table tbody tr td #d-24th_select,
+			#freeTrip #d-25th:checked~table tbody tr td #d-25th_select,
+			#freeTrip #d-26th:checked~table tbody tr td #d-26th_select,
+			#freeTrip #d-27th:checked~table tbody tr td #d-27th_select,
+			#freeTrip #d-28th:checked~table tbody tr td #d-28th_select,
+			#freeTrip #d-29th:checked~table tbody tr td #d-29th_select,
+			#freeTrip #d-30th:checked~table tbody tr td #d-30th_select,
+			#freeTrip #d-31st:checked~table tbody tr td #d-31st_select {background-color: #ed4949; color: #fff; font-weight: bold;}
+			#freeTrip #date #dateBtn:checked~.dateSelect {display: block;}
+
+	#freeTrip .freeSearchWrap .searchTop .searchInput {}
+	#freeTrip .freeSearchWrap .searchTop .searchInput [type="text"] {float: left; padding: 1px 0 1px 8px; width: 302px; height: 38px; font-size: 14px; border: 1px solid #ccc; border-radius: 3px 0 0 3px; background-color: #fafafa;}
+	#freeTrip .freeSearchWrap .searchTop .searchInput [type="text"]::placeholder {color: #111;}
+	#freeTrip .freeSearchWrap .searchTop .searchInput [type="text"]:focus {outline: 0; border-color: #0daa62; background-color: #ebfbf0;}
+	#freeTrip .freeSearchWrap .searchTop .searchInput [type="button"] {float: left; width: 38px; height: 38px; background-color: #0daa62; border-radius: 0 3px 3px 0; background-image: url(../img/icon.png); background-position: -326px -142px; text-indent: -9999px;}
+	#freeTrip .freeSearchWrap .searchTop .searchInput [type="button"]::after {content: ""; position: absolute; top: 9px; left: 9px; width: 18px; height: 18px; }
+
+
+	#freeTrip .freeSearchWrap .searchTop .searchTopRight {float: left; margin-left: 10px; }
+	#freeTrip .freeSearchWrap .searchTop .searchTopRight button {width: 90px; height: 86px; color: #fff; font-size: 15px; font-weight: 700; letter-spacing: -0.1em; border: 1px solid #323641; border-radius: 3px; background-color: #3f4b5b;}
+
+	#freeTrip .freeSearchWrap .searchBt {text-align: center;}
+	#freeTrip .freeSearchWrap .searchBt ul {text-align: center; font-size: 0; margin-bottom: 7px;}
+	#freeTrip .freeSearchWrap .searchBt ul li {display: inline-block; position: relative;}
+	#freeTrip .freeSearchWrap .searchBt ul li+li:before {content:""; position: absolute; top: 6px; left: 0px; width: 1px; height: 10px; background-color: #ccc;}
+	#freeTrip .freeSearchWrap .searchBt ul li a {display: block; padding: 0 9px; color: #555; font-size: 13px;}
+	#freeTrip .freeSearchWrap .searchBt ul li:hover a {text-decoration: underline;}
+	#freeTrip .freeSearchWrap .searchBt ul li:hover a {text-decoration: underline;}
+	#freeTrip .freeSearchWrap .searchBt .viewAll {position: relative; padding-right: 10px; color: #111; font-size: 13px; font-weight: bold;}
+	#freeTrip .freeSearchWrap .searchBt .viewAll:after {content:""; position: absolute; top: 6px; right: 0; width: 5px; height: 9px; background-image: url(../img/icon.png); background-position: -306px -36px;}
+	#freeTrip .freeSearchWrap .searchBt .viewAll:hover {text-decoration: underline;}
+
+	#freeTrip .freeBtn {position: absolute; left: 0; bottom: 0;}
+	#freeTrip .freeBtn ul{overflow: hidden; font-size: 0;}
+	#freeTrip .freeBtn ul li {float: left; height: 131px; width: 125px; background-color: #fff; border-width: 1px 0 0 1px; border-color: #ddd;}
+	#freeTrip .freeBtn ul li:first-child {border-width: 1px 0 0 0;}
+	#freeTrip .freeBtn ul li:hover {background-color: #ebfbf0;}
+	#freeTrip .freeBtn ul li a {display: block; overflow: hidden; height: 100%; text-align: center;}
+	#freeTrip .freeBtn ul li a .icon {display: block; margin: 16px 36px 7px; width: 52px; height: 53px; background-image: url(../img/icon.png);background-position-y: -772px;}
+	#freeTrip .freeBtn ul li a .tit{position: relative; padding-right: 18px; color: #111; font-size: 14px;}
+	#freeTrip .freeBtn ul li a .tit:after {content:""; position: absolute; bottom: 0px; right: 0px; width: 14px; height: 15px; background-image: url(../img/icon.png); background-position: -324px -749px;}
+
+#container #main .main_right #main_Ad {margin-bottom: 20px;}
+#container #main .main_right #main_Ad a {display: block; height: 174px; background-image: url(../img/main_01.jpg); text-indent: -9999px;}
+
+#container #main .main_right #domestic_travel {overflow: hidden;}
+#container #main .main_right #domestic_travel .dome {padding: 23px 30px;width: 240px; height: 176px;}
+#container #main .main_right #domestic_travel .dome h2 {margin-bottom: 18px; color: #fff; font-size: 20px; font-weight: bold; }
+#container #main .main_right #domestic_travel .dome a {display: block; position: relative; margin-bottom: 10px; padding-left: 11px; height: 34px; color: #fff; font-size: 15px; line-height: 32px;}
+#container #main .main_right #domestic_travel .dome a:after {content:""; position: absolute; top: 13px; right: 10px; width: 5px; height: 9px; background-image: url(../img/icon.png); background-position: -173px -36px;}
+#container #main .main_right #domestic_travel .dome.left {float: left; background-color: #ee6d1f;}
+#container #main .main_right #domestic_travel .dome.left a {background-color: #e7480a;}
+#container #main .main_right #domestic_travel .dome.left a:hover {background-color:#d82f08;}
+#container #main .main_right #domestic_travel .dome.right {float: right; background-color: #596bd7;}
+#container #main .main_right #domestic_travel .dome.right a {background-color: #3f51ba;}
+#container #main .main_right #domestic_travel .dome.right a:hover {background-color: #273aaa;}
+
+#container #travelproduct {overflow: hidden; height: 604px; margin-bottom: 40px; background-color: #f5f6f8;}
+#container #travelproduct h2 {text-indent: -9999px;}
+#container #travelproduct .concept {margin-bottom: 20px;}
+#container #travelproduct .concept a {display: block;}
+#container #travelproduct .concept a img{display: block;}
+#container #travelproduct .best {}
+#container #travelproduct .best .best_slider{overflow: hidden; float: left; position: relative; width: 578px; height: 338px; border: 1px solid #ccc;}
+#container #travelproduct .best .best_slider ul {margin-left: 0%; width: 400%; height: 100%; transition: margin-left 0.6s;}
+#container #travelproduct .best .best_slider ul li {float: left; width: 25%;}
+#container #travelproduct .best .best_slider ul li a {display: block;}
+#container #travelproduct .best .best_slider ul li a img {display: block;}
+#container #travelproduct .best .best_slider .arrow {display: none; position: absolute; top: 50%; margin-top: -15px; width: 29px; height: 44px; background-color: rgba(0,0,0,0.6); border: 1px solid #333; text-indent: -9999px;}
+#container #travelproduct .best .best_slider .arrow:hover {background-color: rgba(0,0,0,0.7);}
+#container #travelproduct .best .best_slider .arrow:after {content:""; position: absolute; top: 50%; left: 50%; margin: -8px 0 0 -5px; width: 9px; height: 16px; background-image: url(../img/icon.png);}
+#container #travelproduct .best .best_slider .arrow:after {content:""; position: absolute; top: 50%; left: 50%; margin: -8px 0 0 -5px; width: 9px; height: 16px; background-image: url(../img/icon.png);}
+#container #travelproduct .best .best_slider .arrow.prev {left: 0;}
+#container #travelproduct .best .best_slider .arrow.prev:after {background-position: -129px -127px;}
+#container #travelproduct .best .best_slider .arrow.next {right: 0;}
+#container #travelproduct .best .best_slider .arrow.next:after {background-position: -148px -127px;}
+#container #travelproduct .best .best_slider .control_point {position: absolute; bottom: 0px; left: 0; right: 0; padding-top: 18px; height: 44px; text-align: center; font-size: 0;}
+#container #travelproduct .best .best_slider .control_point label {display: inline-block; width: 12px; height: 12px; border: 2px solid #fff; border-radius: 50%}
+#container #travelproduct .best .best_slider .control_point label+label { margin-left: 9px;}
+
+#container #travelproduct .best .best_slider #best_page01:checked~ul {margin-left: 0%;}
+#container #travelproduct .best .best_slider #best_page02:checked~ul {margin-left: -100%;}
+#container #travelproduct .best .best_slider #best_page03:checked~ul {margin-left: -200%;}
+#container #travelproduct .best .best_slider #best_page04:checked~ul {margin-left: -300%;}
+
+#container #travelproduct .best .best_slider #best_page01:checked~.control_arrow .page1,
+#container #travelproduct .best .best_slider #best_page02:checked~.control_arrow .page2,
+#container #travelproduct .best .best_slider #best_page03:checked~.control_arrow .page3,
+#container #travelproduct .best .best_slider #best_page04:checked~.control_arrow .page4 {display: block;}
+#container #travelproduct .best .best_slider #best_page01:checked~.control_point .page1,
+#container #travelproduct .best .best_slider #best_page02:checked~.control_point .page2,
+#container #travelproduct .best .best_slider #best_page03:checked~.control_point .page3,
+#container #travelproduct .best .best_slider #best_page04:checked~.control_point .page4 {background-color: #fff;}
+
+#container #travelproduct .best .combine_promotion {float: left; margin-left: 20px; border: 1px solid #ccc;}
+#container #travelproduct .best .combine_promotion a {display: block;}
+#container #travelproduct .best .combine_promotion a img {display: block;}
+
+#container #mode_travel {position: relative; margin-bottom: 62px; height: 798px;}
+#container #mode_travel h2 {position: absolute; width: 440px; height: 38px; color: #111; font-size: 26px; font-weight: 500; vertical-align: bottom; letter-spacing: -2px;}
+#container #mode_travel h2 span {padding-left: 15px; font-size: 15px; color: #888;}
+#container #mode_travel ul {overflow: hidden;}
+#container #mode_travel ul li {float: left;}
+#container #mode_travel ul li:nth-child(1) {margin-left: 440px; width: 132px;}
+#container #mode_travel ul li p {float: right; position: relative; width: 132px; height: 38px; text-align: center; line-height: 36px;}
+#container #mode_travel ul li:hover p {color: #fff; background-color: #0daa62; border-radius: 3px}
+#container #mode_travel ul:not(:hover) li:nth-child(1) p {color: #fff; background-color: #0daa62; border-radius: 3px}
+#container #mode_travel ul li+li p:before {content:""; position: absolute; top: 12px; left: 0; width: 1px; height: 14px; background-color: #ccc;}
+#container #mode_travel ul li:hover p:before {display: none;}
+#container #mode_travel ul li:hover+li p:before {display: none;}
+#container #mode_travel ul li:nth-of-type(1) p {margin-left: -131px;}
+#container #mode_travel ul li .visual{display: none; position: absolute; top: 0; left: 0; margin-top: 38px; padding-top: 20px;}
+#container #mode_travel ul li .visual .main_img {}
+#container #mode_travel ul li .visual .main_img a {display: block;}
+#container #mode_travel ul li .visual .main_img a img{display: block;}
+#container #mode_travel ul li .visual .sub_img {overflow: hidden; margin-top: 20px;}
+#container #mode_travel ul li .visual .sub_img a {float: left; position: relative; display: block; transition: opacity 0.4s;}
+#container #mode_travel ul li .visual .sub_img a+a {margin-left: 20px;}
+#container #mode_travel ul li .visual .sub_img a img {display: block;}
+#container #mode_travel ul li .visual .sub_img a span {position: absolute; z-index: 2; top: 50%; left: 50%; width: 124px; height: 40px; color: #fff; font-size: 14px; font-weight: bold; text-align: center; line-height: 37px; border: 2px solid #fff; border-radius: 2px; transform: translate(-50%, -50%); opacity: 0; transition: opacity 0.6s;}
+
+/*	hover 	*/
+#container #mode_travel ul li p:hover~.visual {display: block;}
+#container #mode_travel ul:not(:hover) li:nth-child(1) .visual {display: block;}
+#container #mode_travel ul:hover li:nth-child(1) .visual {display: block;}
+#container #mode_travel ul li .visual:hover {display: block;}
+#container #mode_travel ul li .visual .sub_img a:after {content:""; opacity: 0; transition: opacity 0.5s;}
+#container #mode_travel ul li .visual .sub_img a:hover:after {position: absolute; z-index: 1; top: 0; bottom: 0; left: 0; right: 0; background-color: #111; opacity: 0.4;}
+#container #mode_travel ul li .visual .sub_img a:hover span {opacity: 1;}
+#container #mode_travel ul li .visual .sub_img a:hover span:hover {color: #111; background-color: #fff;}
+
+#container #event  {margin-bottom: 48px;}
+#container #event h2 {margin-bottom: 15px; height: 38px; font-size: 26px; vertical-align: bottom;}
+#container #event h2 span {padding-left: 15px; color: #888; font-size: 15px;}
+#container #event .event_cnt {overflow: hidden;}
+#container #event .event_cnt>div{float: left; border: 1px solid #ccc;}
+#container #event .event_cnt>div:not(:nth-child(3n+1)) {margin-left: -1px;}
+#container #event .event_cnt>div:nth-child(n+4) {margin-top: -1px;}
+#container #event .event_cnt>div>img {display: block;}
+
+#container #event .event_cnt .slide {overflow: hidden; position: relative; width: 540px;}
+#container #event .event_cnt .slide ul {overflow: hidden; margin-left: 0; width: 600%; animation: slider 15s infinite;}
+#container #event .event_cnt .slide ul li {float: left; width: 16.6666666%;}
+#container #event .event_cnt .slide ul li a {display: block;}
+#container #event .event_cnt .slide ul li a img {display: block;}
+#container #event .event_cnt .slide .page_pointer {overflow: hidden; position: absolute; bottom: 10px; left: 50%; transform: translate(-50%, 0);}
+#container #event .event_cnt .slide .page_pointer i {float: left; margin-left: 10px; width: 12px; height: 12px; border: 2px solid #fff; border-radius: 50%; background-color: transparent; animation: page_pointer 15s infinite;}
+#container #event .event_cnt .slide .page_pointer i:nth-of-type(1) {animation-delay: 0s}
+#container #event .event_cnt .slide .page_pointer i:nth-of-type(2) {animation-delay: 3s}
+#container #event .event_cnt .slide .page_pointer i:nth-of-type(3) {animation-delay: 6s}
+#container #event .event_cnt .slide .page_pointer i:nth-of-type(4) {animation-delay: 9s}
+#container #event .event_cnt .slide .page_pointer i:nth-of-type(5) {animation-delay: 12s}
+#container #event .event_cnt .slide .page_pointer a {float: left; margin-left: 10px; width: 9px; height: 12px; border-width: 0 3px; border-color: #fff;}
+
+
+#container #event .event_cnt .wide {width: 540px; height: 276px;}
+#container #event .event_cnt .wide .wide_wrap {padding: 28px 30px 0;}
+#container #event .event_cnt .wide .wide_wrap h3 {margin-bottom: 35px; color: #111; font-size: 16px; font-weight: bold;}
+#container #event .event_cnt .wide .wide_wrap ul {}
+#container #event .event_cnt .wide .wide_wrap ul li {float: left; margin-bottom: 30px; width: 119px; height: 62px; color: #555; font-size: 13px; text-align: center;}
+#container #event .event_cnt .wide .wide_wrap ul li a {display: block;}
+#container #event .event_cnt .wide .wide_wrap ul li a span {display: block; margin: auto;}
+#container #event .event_cnt .wide .wide_wrap ul li:hover a span {color: #0daa62;}
+#container #event .event_cnt .wide .wide_wrap ul li a .icon {margin-bottom: 10px; background-image: url(../img/icon.png);}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(1) a .icon {width: 32px; height: 32px; background-position: 0px -453px;}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(2) a .icon {width: 26px; height: 32px; background-position: -84px -453px;}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(3) a .icon {margin-bottom: 13px; width: 38px; height: 29px; background-position: -156px -451px}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(4) a .icon {margin-bottom: 14px; width: 43px; height: 28px; background-position: -252px -451px}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(5) a .icon {margin-bottom: 14px; width: 35px; height: 31px; background-position: 0px -493px;}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(6) a .icon {margin-bottom: 12px; width: 36px; height: 33px; background-position: -90px -494px}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(7) a .icon {margin-bottom: 16px; width: 38px; height: 29px; background-position: -180px -491px;}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(8) a .icon {margin-bottom: 7px; width: 46px; height: 38px; background-position: -276px -494px;}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(1):hover a .icon {background-position-x: -42px;}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(2):hover a .icon {background-position-x: -120px;}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(3):hover a .icon {background-position-x: -204px;}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(4):hover a .icon {background-position-x: -305px;}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(5):hover a .icon {background-position-x: -45px;}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(6):hover a .icon {background-position-x: -135px;}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(7):hover a .icon {background-position-x: -228px;}
+#container #event .event_cnt .wide .wide_wrap ul li:nth-child(8):hover a .icon {background-position-x: -331px;}
+
+
+
+
+#container #info {overflow: hidden; padding: 34px 0 80px; background-color: #f5f6f8;}
+#container #info>div>div:nth-child(1),
+#container #info>div>div:nth-child(2) {margin-bottom: 32px;}
+#container #info div h3 {margin-bottom: 19px; font-size: 18px; font-weight: bold;}
+#container #info .customer {float: left;}
+#container #info .customer .customer_Cnt {height: 356px; border-top: 2px solid #333;}
+#container #info .customer .customer_Cnt .header_num{float: left; width: 229px; height: 100%; padding: 39px 30px 0; background-color: #eee;}
+#container #info .customer .customer_Cnt .header_num h4 {color: #111; font-size: 15px; font-weight: bold;}
+#container #info .customer .customer_Cnt .header_num strong {display: block; margin-bottom: 30px; color: #3f4b5b; font-size: 30px; line-height: 40px; font-family: Tahoma;}
+#container #info .customer .customer_Cnt .header_num h5 {margin-bottom: 8px; color: #111; font-size: 15px; font-weight: bold;}
+#container #info .customer .customer_Cnt .header_num .phone {margin-bottom: 8px; color: #111; font-size: 20px; font-family: tahoma;}
+#container #info .customer .customer_Cnt .header_num .air {margin-bottom: 9px; color: #111; font-size: 13px; font-weight: bold; line-height: 23px;}
+#container #info .customer .customer_Cnt .header_num .air em {font-weight: normal;}
+#container #info .customer .customer_Cnt .header_num .air i {padding-left: 22px; color: #555; font-weight: normal;}
+#container #info .customer .customer_Cnt .call_num_info {float: left; padding-top: 22px; width: 574px; height: 100%; background-color: #fff;}
+#container #info .customer .customer_Cnt .call_num_info ul {float: left; font-size: 13px; line-height: 22px;}
+#container #info .customer .customer_Cnt .call_num_info ul li:nth-child(1) {position: relative; margin-bottom: 4px; padding-bottom: 9px; color: #111; font-weight: bold; border-bottom: 1px solid #ccc}
+#container #info .customer .customer_Cnt .call_num_info .ars {margin-left: 30px; width: 233px;}
+#container #info .customer .customer_Cnt .call_num_info .ars li:nth-child(1) a {position: absolute; top: 2px; right: 0; padding-right: 10px; font-size: 12px; font-weight: normal;}
+#container #info .customer .customer_Cnt .call_num_info .ars li:nth-child(1) a:hover {color: #297fb8; text-decoration: underline;}
+#container #info .customer .customer_Cnt .call_num_info .ars li:nth-child(1) a:after {content:""; position: absolute; top: 5px; right: 0; width: 5px; height: 9px; background-image: url(../img/icon.png); background-position: -158px -50px;}
+#container #info .customer .customer_Cnt .call_num_info .ars li:nth-child(1) a:hover:after {background-position-x: -173px;}
+#container #info .customer .customer_Cnt .call_num_info .ars li {position: relative;}
+#container #info .customer .customer_Cnt .call_num_info .ars li span {position: absolute; top: 0; left: 0; font-weight: bold; color: #111;}
+#container #info .customer .customer_Cnt .call_num_info .ars li em {padding-left: 27px; color: #555;}
+#container #info .customer .customer_Cnt .call_num_info .service {margin-left: 30px; width: 238px;}
+#container #info .customer .customer_Cnt .call_num_info .service li {}
+#container #info .customer .customer_Cnt .call_num_info .service li+li {margin-top: 13px;}
+#container #info .customer .customer_Cnt .call_num_info .service li strong {display: block; margin-bottom: 5px; color: #111; line-height: 17px;}
+#container #info .customer .customer_Cnt .call_num_info .service li em {line-height: 21px; color: #555;}
+#container #info .guide {float: right; width: 277px;}
+#container #info .guide ul {overflow: hidden;}
+#container #info .guide ul li {float: left; display: table; width: 138px; border: 1px solid #ccc; }
+#container #info .guide ul li:nth-child(2n) {margin-left: -1px;}
+#container #info .guide ul li:nth-child(n+3) {margin-top: -1px;}
+#container #info .guide ul li a {display: table-cell; position: relative; height: 89px; color: #555; font-size: 14px; text-align: center; vertical-align: middle;}
+#container #info .guide ul li a:hover:after {content:""; position: absolute; top: -1px; bottom: -1px; left: -1px; right: -1px; border: 1px solid #333;}
+
+#container #info .family_site {float: left; width: 803px;}
+#container #info .family_site a {float: left;}
+#container #info .family_site a+a {margin-left: 40px;}
+#container #info .family_site a .icon {display: block; margin: 0 auto 15px; width: 55px; height: 55px; background-image: url(../img/icon.png);}
+#container #info .family_site a:nth-child(1) .icon {background-position: 0px -230px}
+#container #info .family_site a:nth-child(2) .icon {background-position: 0px -365px}
+#container #info .family_site a:nth-child(3) .icon {background-position: -260px -230px}
+#container #info .family_site a:nth-child(4) .icon {background-position: 0px -295px}
+#container #info .family_site a:nth-child(5) .icon {background-position: -130px -295px}
+#container #info .family_site a:nth-child(6) .icon {background-position: -260px -295px}
+#container #info .family_site a:nth-child(7) .icon {background-position: -1px -655px}
+#container #info .family_site a:nth-child(8) .icon {background-position: -131px -655px}
+#container #info .family_site a:hover:nth-child(1) .icon {background-position: -65px -230px}
+#container #info .family_site a:hover:nth-child(2) .icon {background-position: -64px -365px}
+#container #info .family_site a:hover:nth-child(3) .icon {background-position: -325px -230px}
+#container #info .family_site a:hover:nth-child(4) .icon {background-position: -65px -295px}
+#container #info .family_site a:hover:nth-child(5) .icon {background-position: -195px -295px}
+#container #info .family_site a:hover:nth-child(6) .icon {background-position: -325px -295px}
+#container #info .family_site a:hover:nth-child(7) .icon {background-position: -66px -655px}
+#container #info .family_site a:hover:nth-child(8) .icon {background-position: -196px -655px}
+#container #info .family_site a .tit {display: block; text-align: center; color: #555; font-size: 13px; line-height: 20px; letter-spacing: -1px;}
+#container #info .family_site a:hover .tit {color: #111;}
+
+#container #info .notice {float: right; width: 277px;}
+#container #info .notice ul {}
+#container #info .notice ul li {}
+#container #info .notice ul li+li {margin-top: 13px;}
+#container #info .notice ul li a {overflow: hidden; display: block; color: #555; font-size: 13px;}
+#container #info .notice ul li a span {float: left; display: block; width: 200px;}
+#container #info .notice ul li:hover a span {text-decoration: underline;}
+#container #info .notice ul li a em {float: right; color: #888;}
+
+#container .bt_Ad {height: 120px; background-image: url(../img/footer_banner_01.jpg); background-position: 0 0;}
+#container .bt_Ad a {display: block; position: relative; height: 120px;}
+#container .bt_Ad a img {position: absolute; top: -25px; left: 50%; margin-left: -530px;}
+
+
+/*FOOTER*/
+footer {padding-bottom: 50px;}
+footer .ft_Top {margin: 20px 0 25px 0; font-size: 0; border-width: 1px 0; border-color: #ccc;}
+footer .ft_Top a {font-size: 12px; color: #555; letter-spacing: -1px; line-height: 50px;}
+footer .ft_Top a:hover {color: #297fb8; text-decoration: underline;}
+footer .ft_Top a+a {margin-left: 88px;}
+
+footer .ft_Cnt {overflow: hidden; margin-bottom: 44px;}
+footer .ft_Cnt h3 {float: left; margin-top: 44px; width: 131px; height: 25px; text-indent: -9999px; background-image: url(../img/footer_logo.png);}
+footer .ft_Cnt .address {float: left; margin-left: 39px; width: 680px; font-size: 12px; color: #888; text-align: left; line-height: 19px;}
+footer .ft_Cnt .address a {padding: 1px 2px; color: #fff; font-size: 4px; background-color: #787878;}
+footer .ft_Cnt .sns {float: left; width: 250px;}
+footer .ft_Cnt .sns ul {}
+footer .ft_Cnt .sns ul li {float: left; margin: 0 0 8px 12px; width: 112px;}
+footer .ft_Cnt .sns ul li a {float: left;}
+footer .ft_Cnt .sns ul li:hover a {text-decoration: underline;}
+footer .ft_Cnt .sns ul li .thumb {margin-right: 9px; width: 30px; height: 30px; background-image: url(../img/footer_sns.png);}
+footer .ft_Cnt .sns ul li .tit {font-size: 12px; line-height: 30px;}
+
+footer .awards {}
+footer .awards a {display: block;}
+footer .awards a img {display: block;}
+
+
+/*keyframes*/
+@keyframes slider {
+	0% {margin-left: -0%;}
+	13% {margin-left: -0%;}
+	20% {margin-left: -100%;}
+	33% {margin-left: -100%;}
+	40% {margin-left: -200%;}
+	53% {margin-left: -200%;}
+	60% {margin-left: -300%;}
+	73% {margin-left: -300%;}
+	80% {margin-left: -400%;}
+	93% {margin-left: -400%;}
+	100% {margin-left: -500%;}
+}
+
+@keyframes page_pointer {
+	0% {background-color: #fff;}
+	19.9999% {background-color: #fff;}
+	20% {background-color: transparent;}
+	100% {background-color: transparent;}
+
+}

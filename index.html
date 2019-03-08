@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<title>Jisu's Portfolio Page</title>
+	<!--              FONTS                -->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Rajdhani:300,400,500,600,700" rel="stylesheet">
+	<!--              CSS                  -->
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./lib/owl/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="./lib/owl/owl.theme.default.css">
+	<!--              JS                   -->
+	<script type="text/javascript" src="./js/jquery.3.1.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+	<script type="text/javascript" src="./js/common.js"></script>
+	<script type="text/javascript" src="./lib/owl/owl.carousel.min.js"></script>
+
+
+
+</head>
+<body>	
+	<div id="modal"></div>
+	<div id="wrap">
+		<header>
+			<nav class="topNav">
+				<a href="#visual">home</a>
+				<a href="#about">about</a>
+				<a href="#skill">skill</a>
+				<a href="#portfolio">portfolio</a>
+				<a href="#contact">contact</a>
+			</nav>
+			<div class="hamburger">
+	          <span class="line"></span>
+	          <span class="line"></span>
+	          <span class="line"></span>
+	        </div>
+	        <nav class="hmNav">
+				<a href="#visual">home</a>
+				<a href="#about">about</a>
+				<a href="#skill">skill</a>
+				<a href="#portfolio">portfolio</a>
+				<a href="#contact">contact</a>
+			</nav>
+		</header>
+		<div id="container">
+			<nav>
+				<a href="#visual" class="active"></a>
+				<a href="#about"></a>
+				<a href="#skill"></a>
+				<a href="#portfolio"></a>
+				<a href="#contact"></a>
+			</nav>
+			<section id="visual">
+					<div class='name'>
+						<p>YOO JISU</p>
+						<span id='text'></span>
+						<div class='console-underscore' id='console'>&#95;</div>
+					</div>
+					<div class="scroll example--2">
+					    <span class="scroll-icon">
+					      <span class="scroll-icon__dot"></span>
+					    </span>
+					    <p>Scroll</p>
+				 	</div>
+			</section>
+			<section id="about">
+				<div class="inner">
+					<h2>about me</h2>
+					<div class="pic"></div>
+					<div class="aboutCnt">
+						<div class="profile">
+							<h3>profile</h3>
+							<div class="tit">
+								<span>이름</span>
+								<span>생년월일</span>
+								<span>주소</span>
+								<span>연락처</span>
+								<span>이메일</span>
+							</div>
+							<div class="desc">
+								<span>유지수</span>
+								<span>1994.02.14</span>
+								<span>경기도 하남시</span>
+								<span>010-6356-3534</span>
+								<span>jisu3534@naver.com</span>
+							</div>
+						</div>
+						<div class="history">
+							<h3>history</h3>
+							<div class="tit">
+								<span><em>20</em>18.09~<em>20</em>19.01</span>
+								<span><em>20</em>16.12~<em>20</em>17.12</span>
+								<span><em>20</em>12.03~<em>20</em>17.02</span>
+								<span><em>20</em>15.01~<em>20</em>15.07</span>
+							</div>
+							<div class="desc">
+								<span><b>그린아트컴퓨터학원</b><br>디지털 컨버전스 <i>(UI/UX</i> 엔지니어링,<br>프론트앤드<i>)</i> 양성과정</span>
+								<span><b>쥬비스</b> 다이어트 컨설턴트 근무</span>
+								<span><b>서울여자대학교</b> 식품영양학과 졸업</span>
+								<span><b>캐나다</b> 어학연수</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="skill">
+				<div class="inner">
+					<h2>skills</h2>
+					<ul id="barWrap">
+						<li class="barList">
+							<p class="barTitle">HTML5</p>
+							<div class="graphFrm">
+								<div class="barGraph">
+									<canvas data-percent="90" data-barColor="#ff5c70" data-barWidth="12" data-time="2"></canvas>
+									<p class="barText">0</p>
+								</div>
+							</div>
+							<p class="barInfo">웹표준과 웹접근성을 준수한<br>홈페이지를 제작할 수 있습니다.</p>
+						</li>
+						<li class="barList">
+							<p class="barTitle">CSS3</p>
+							<div class="graphFrm">
+								<div class="barGraph">
+									<canvas data-percent="85" data-barColor="#ff5c70" data-barWidth="12" data-time="2"></canvas>
+									<p class="barText">0</p>
+								</div>
+							</div>
+							<p class="barInfo">스타일의 속성을 이해하고 있고,<br>CSS만으로 반응형 홈페이지를 만들 수 있습니다.</p>
+						</li>
+						<li class="barList">
+							<p class="barTitle">javaScript</p>
+							<div class="graphFrm">
+								<div class="barGraph">
+									<canvas data-percent="70" data-barColor="#ff5c70" data-barWidth="12" data-time="2"></canvas>
+									<p class="barText">0</p>
+								</div>
+							</div>
+							<p class="barInfo">스크립트에 대한 이해도가 높고<br>에러 메세지를 보고 오류를 해결할 수 있습니다.</p>
+						</li>
+						<li class="barList">
+							<p class="barTitle">jQuery</p>
+							<div class="graphFrm">
+								<div class="barGraph">
+									<canvas data-percent="75" data-barColor="#ff5c70" data-barWidth="12" data-time="2"></canvas>
+									<p class="barText">0</p>
+								</div>
+							</div>
+							<p class="barInfo">오픈소스를 활용하여 사용할 수 있고,<br> 간단한 효과는 직접 개발할 수 있습니다.</p>
+						</li>
+						<li class="barList">
+							<p class="barTitle">PHOTOSHOP</p>
+							<div class="graphFrm">
+								<div class="barGraph">
+									<canvas data-percent="60" data-barColor="#ff5c70" data-barWidth="12" data-time="2"></canvas>
+									<p class="barText">0</p>
+								</div>
+							</div>
+							<p class="barInfo">이미지 수정/보완을 할 수 있습니다.</p>
+						</li>
+						<li class="barList">
+							<p class="barTitle">ILLUSTRATOR</p>
+							<div class="graphFrm">
+								<div class="barGraph">
+									<canvas data-percent="50" data-barColor="#ff5c70" data-barWidth="12" data-time="2"></canvas>
+									<p class="barText">0</p>
+								</div>
+							</div>
+							<p class="barInfo">기본적인 툴 사용방법을 알고,<br> 활용할 수 있습니다.</p>
+						</li>
+					</ul>
+					<ul id="lineBar">
+						<li class="barList">
+							<div class="title">HTML5</div>
+							<div class="bar"></div>
+							<div class="text">0</div>
+							<div class="info">웹표준과 웹접근성을 준수한 홈페이지를 제작할 수 있습니다.</div>
+						</li>
+						<li class="barList">
+							<div class="title">CSS3</div>
+							<div class="bar"></div>
+							<div class="text">0</div>
+							<div class="info">스타일의 속성을 이해하고 있고, CSS만으로 반응형 홈페이지를 만들 수 있습니다.</div>
+
+						</li>
+						<li class="barList">
+							<div class="title">javaScript</div>
+							<div class="bar"></div>
+							<div class="text">0</div>
+							<div class="info">스크립트에 대한 이해도가 높고, 에러 메세지를 보고 오류를 해결할 수 있습니다.</div>
+						</li>
+						<li class="barList">
+							<div class="title">jQuery</div>
+							<div class="bar"></div>
+							<div class="text">0</div>
+							<div class="info">오픈소스를 활용하여 사용할 수 있고, 간단한 효과는 직접 개발할 수 있습니다.</div>
+						</li>
+						<li class="barList">
+							<div class="title">PHOTOSHOP</div>
+							<div class="bar"></div>
+							<div class="text">0</div>
+							<div class="info">이미지 수정/보완을 할 수 있습니다.</div>
+						</li>
+						<li class="barList">
+							<div class="title">ILLUSTRATOR</div>
+							<div class="bar"></div>
+							<div class="text">0</div>
+							<div class="info">기본적인 툴 사용방법을 알고, 활용할 수 있습니다.</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section id="portfolio">
+				<div class="inner">
+					<h2>portfolio</h2>
+					<div class="viewFrm">
+						<div class="portWrap port_1 active">
+							<div class="device">
+								<img src="./img/port_1.png" alt="컴퓨터">
+							</div>
+							<div class="info">
+								<p class="title">sk wyverns 홈페이지 리뉴얼</p>
+								<div class="text">
+									<p class="detail">
+										연습용으로 만들어본 <i>SK Wyverns</i> 리뉴얼 사이트입니다. 기존 사이트보다 <i>UI/UX</i>가 편리하도록 디자인하였습니다. <i>ajax</i>를 활용하여 데이터 관리를 용이하게 만들었습니다.
+									</p>
+									<p class="tool">HTML5 / CSS3 / javaScript / jQeury</p>
+									<p class="color hidden"><span style="background-color: #000000"></span> <em>#000000</em> <span style="background-color: #E31836"></span> <em>#E31836</em></p>
+									<p class="fonts hidden">Roboto / Noto Sans KR </p>
+									<div class="image hidden"><img src="./img/portfolio_1.png" alt="포트폴리오이미지"></div>
+								</div>
+								<div class="buttonWrap">
+									<button class="dt">detail</button>
+									<button class="vm" onclick="location.href='./skwyverns/index.html'">view site</button>
+								</div>
+							</div>
+						</div><!-- /.port_1 -->
+					</div><!-- /.viewFrm -->
+					<div class="pop" style="display : none; position: absolute; z-index: 101; background-color: #fff;">
+						<div class="close">닫기</div>
+						<div class="popInner">
+							<div class="tit"></div>
+							<div class="desc"></div>
+							<div class="info">
+								<ul class="info_tit">
+									<li>Color</li>
+									<li>Fonts</li>
+									<li>Tech Stack</li>
+								</ul>	
+								<ul class="detail">
+									<li class="color"></li>
+									<li class="font"></li>
+									<li class="tool"></li>
+								</ul>					
+							</div>															
+							<div class="buttonWrap">
+								<button class="vm">view site</button>
+							</div>		
+							<div class="image">
+								<img src="./img/portfolio_1.png" alt="포트폴리오이미지">
+							</div>
+						</div>
+					</div>
+					<div class="owl-carousel owl-theme">
+						<div class="item">
+							<img src="./img/portfolio_1.png" alt="포트폴리오이미지">
+							<div class="portWrap port_1 active">
+								<div class="device">
+									<img src="./img/port_1.png" alt="포트폴리오이미지">
+								</div>
+								<div class="info">
+									<p class="title">sk wyverns 홈페이지 리뉴얼</p>
+									<div class="text">
+										<p class="detail">
+											연습용으로 만들어본 <i>SK Wyverns</i> 리뉴얼 사이트입니다. 기존 사이트보다 <i>UI/UX</i>가 편리하도록 디자인하였습니다. <i>ajax</i>를 활용하여 데이터 관리를 용이하게 만들었습니다.
+										</p>
+										<p class="tool">HTML5 / CSS3 / javaScript / jQeury</p>
+										<p class="color hidden"><span style="background-color: #000000"></span> <em>#000000</em> <span style="background-color: #e31836"></span> <em>#E31836</em></p>
+										<p class="fonts hidden">Roboto / Noto Sans KR </p>
+										<div class="image hidden"><img src="./img/portfolio_1.png" alt="포트폴리오이미지"></div>
+									</div>
+									<div class="buttonWrap">
+										<button class="dt">detail</button>
+										<button class="vm" onclick="location.href='./skwyverns/index.html'">view site</button>
+									</div>
+								</div>
+							</div><!-- /.port_1 -->
+						</div>
+						<div class="item">
+							<img src="./img/portfolio_2.png" alt="포트폴리오이미지">
+							<div class="portWrap port_2">
+								<div class="device">
+									<img src="./img/port_2.png" alt="포트폴리오이미지">
+								</div>
+								<div class="info">
+									<p class="title">모두투어 홈페이지 카피</p>
+									<div class="text">
+										<p class="detail">
+											<i>HTML5</i>와 <i>CSS3</i>만을 이용하여 만든 모두투어 메인 홈페이지입니다. <i>CSS</i>만으로 슬라이드, 탭, 드롭다운 메뉴를 구현하였습니다.
+										</p>
+										<p class="tool">HTML5, CSS3</p>
+										<p class="color hidden"><span style="background-color: #0daa62"></span> <em>#0daa62</em></p>
+										<p class="fonts hidden">Malgun Gothic</p>
+										<div class="image hidden"><img src="./img/portfolio_2.png" alt="포트폴리오이미지"></div>
+									</div>
+									<div class="buttonWrap">
+										<button class="dt">detail</button>
+										<button class="vm" onclick="location.href='./modetour/index.html'">view site</button>
+									</div>
+								</div>
+							</div><!-- /.port_2 -->
+						</div>
+						<div class="item">
+							<img src="./img/portfolio_3.png" alt="포트폴리오이미지">
+								<div class="portWrap port_3">
+								<div class="device">
+									<img src="./img/port_3.png" alt="포트폴리오이미지">
+								</div>
+								<div class="info">
+									<p class="title">쿠팡 홈페이지 카피</p>
+									<div class="text">
+										<p class="detail">
+											<i>HTML5</i>와 <i>CSS3</i>만을 이용하여 만든 쿠팡 메인 홈페이지입니다. <i>CSS</i>만으로 슬라이드, 탭, 드롭다운 메뉴를 구현하였습니다.
+										</p>
+										<p class="tool">HTML5, CSS3</p>
+										<p class="color hidden"><span style="background-color: #0085da"></span> <em>#0085da</em></p>
+										<p class="fonts hidden">Dotum </p>
+										<div class="image hidden"><img src="./img/portfolio_3.png" alt="포트폴리오이미지"></div>
+									</div>
+									<div class="buttonWrap">
+										<button class="dt">detail</button>
+										<button class="vm" onclick="location.href='./coupang/index.html'">view site</button>
+									</div>
+								</div>
+							</div><!-- /.port_3 -->
+						</div>
+						<div class="item">
+							<img src="./img/portfolio_4.png" alt="포트폴리오이미지">
+							<div class="portWrap port_4">
+								<div class="device">
+									<img src="./img/port_4.png" alt="포트폴리오이미지">
+								</div>
+								<div class="info">
+									<p class="title">개인 포트폴리오 사이트</p>
+									<div class="text">
+										<p class="detail">
+											<i>HTML5, CSS3, javaScript, jQuery</i>를 이용하여 만든 개인 포트폴리오 사이트입니다. 태블릿과 모바일에서도 볼 수 있는 반응형 홈페이지로 제작하였습니다.
+										</p>
+										<p class="tool">HTML5 / CSS3 / javaScript / jQeury / Responsible</p>
+										<p class="color hidden"><span style="background-color: #ec6d7e"></span> <em>#ec6d7e</em> <span style="background-color: #faeccd"></span> <em>#faeccd</em> <span style="background-color: #1a3653"></span> <em>#1a3653</em></p>
+										<p class="fonts hidden">Rajdhani / Noto Sans KR </p>
+										<div class="image hidden"><img src="./img/portfolio_4.png" alt="포트폴리오이미지"></div>
+									</div>
+									<div class="buttonWrap">
+										<button class="dt">detail</button>
+										<button class="vm" onclick="location.href='./index.html'">view site</button>
+									</div>
+								</div>
+							</div><!-- /.port_4 -->
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="contact">
+				<h2>contact</h2>
+				<div class="contactWrap">
+					<div class="bg">
+						<p>Thanks for Scrolling<em>:)</em></p>
+					</div>
+					<div class="info">
+						<dl>
+							<dt>이름 <i>/ NAME</i></dt>
+							<dd>유지수 <i>/ YOO JISU</i></dd>
+							<dt>연락처 <i>/ PHONE</i></dt>
+							<dd><i>010-6356-3534</i></dd>
+							<dt>이메일 <i>/ E-MAIL</i></dt>
+							<dd><i>jisu3534@naver.com</i></dd>
+						</dl>
+					</div>
+				</div>
+			</section>
+		</div><!-- #container -->
+		<footer>
+			
+		</footer>
+	</div><!-- /#wrap -->
+</body>
+</html>
