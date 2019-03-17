@@ -81,7 +81,7 @@ $(document).ready(function(){
 								return false;
 							} else {
 
-								if (option.minWidth>=$(window).width()) return false;
+								//if (option.minWidth>=$(window).width()) return false;
 								if($(this).is(":animated")) return false; // 화면이 움직이는 도중에는 중지
 
 								var winHeight = $(window).height();
