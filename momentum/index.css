@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#wrap {
+	overflow: hidden;
+	width: 100%;
+	background: 50% 50% no-repeat;
+	background-size: cover;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.clock {
+	margin-top: 30vh;
+}
+h1 {
+	color: white;
+	font-size: 14vh;
+	font-weight: 400;
+	text-align: center;
+	transition: color 0.5s ease-in-out;
+}
+.btn {
+	cursor : pointer;
+}
+
+.form,
+.greeting {
+	display: none;
+	font-size: 4vh;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+}
+
+.showing {
+	display: block;
+}
+
+.form input,
+.toDoForm input {
+	color: white;
+	font-size: 4vh;
+	font-weight: 400;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align : center;
+	background-color: transparent;
+	border: 0px solid transparent;
+	border-bottom: 2px solid white;
+	outline: 0px solid transparent;
+}
+.form input::placeholder {
+	color: white;
+}
+.form input:focus::placeholder {
+	font-size: 0;
+}
+
+.greeting {
+	font-size: 5.8vh
+}
+.toDoForm {
+	text-align: center;
+}
+.toDoForm h4{
+	margin-top: 100px;
+	color: white;
+	font-size: 3vh;
+	font-weight:400;
+	text-align: center;
+}
+.toDoForm input {
+	margin-top: 20px;
+	font-size: 2.8vh;
+}
+.toDoList {
+	margin-top: 20px;
+	color: white;
+	font-size: 4vh;
+	text-align: center;
+}
+.toDoList li {
+	font-size: 2.5vh;
+}
+.toDoList button {
+	display: inline-block;
+	margin-left: 10px;
+	width: 2vh;
+	height: 2vh;
+	color: red;
+	font-size: 1.8vh;
+	background-color: rgba(0,0,0,0.5);
+	border: 0px solid transparent;
+}
+.weather {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: white;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
