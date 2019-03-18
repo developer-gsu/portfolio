@@ -46,7 +46,7 @@ header .hmNav.is-open {display: block;}
 /*--------------------------VISUAL----------------------------*/
 
 #container #visual {width: 100%; background-image: url(../img/visual_1-1.png); background-size: cover; background-position: 50% 50%;}
-/*#container #visual:before {content:""; position: absolute; top: 0; left: 0; right: 0; height: 100%; background-image: url(../img/visual2-1.png); background-size: cover; background-position: 50% 50%; animation: fade 5s infinite;}*/
+#container #visual:before {content:""; position: absolute; top: 0; left: 0; right: 0; height: 100%; background-image: url(../img/visual2-1.png); background-size: cover; background-position: 50% 50%; animation: fade 5s infinite;}
 #container #visual .name {position: absolute; left: 50%; margin-top: 40vh; height: 100%; color: #fff; font-size: 8.8vmin; text-align: left; transform: translateX(-50%); font-family: 'Rajdhani', sans-serif; font-weight: 600;  text-shadow: 3px 3px 10px #333; opacity: 0.88; line-height : 1;}
 #container #visual .name #text {float: left; display: block; font-size: 5vmin;}
 #container #visual .console-underscore {float: left; position:relative; top: -0.3em; left:10px;}
