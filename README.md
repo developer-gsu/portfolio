@@ -5,9 +5,9 @@
 * 참여도 : 디자인 / 퍼블리싱 100%
 * 사용프로그램 : PhotoShop, HTML, CSS, JavaScript, JQuery
 * 주요 기능
-> 페럴렉스 스크롤
-> Modal 창 구현
-> 네비게이션 이동
+1. 페럴렉스 스크롤
+2. Modal 창 구현
+3. 네비게이션 이동
 - - -
 ## SK Wyverns 리뉴얼 페이지
 - - -
