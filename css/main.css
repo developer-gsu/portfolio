@@ -90,7 +90,8 @@ header .hmNav.is-open {display: block;}
 #container #about .aboutCnt .profile .desc span:nth-child(4),
 #container #about .aboutCnt .profile .desc span:nth-child(5)  {font-weight: 400; font-size: 22px;}
 #container #about .aboutCnt .history .tit span  {font-weight: 600; font-size: 22px;}
-#container #about .aboutCnt .history .tit span:nth-child(2)  {margin-top: 66px;}
+#container #about .aboutCnt .history .tit span:not(:first-child)  {margin-top: 22px;}
+#container #about .aboutCnt .history .tit span:nth-child(3)  {margin-top: 66px;}
 
 
 /*--------------------------SKILL----------------------------*/
