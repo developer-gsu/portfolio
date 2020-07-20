@@ -1,17 +1,32 @@
 # Portfolio
 
-## 델테크놀로지스 이벤트 랜딩페이지
+## 델 테크놀로지스 이벤트 랜딩페이지
 * 제작기간 : 2020.07.16 - 17 (2일)
 * 참여도 : 퍼블리싱 100%
 * 사용 프로그램 : HTML, CSS, JavaScript, JQuery
 * 주요 기능
 1. 반응형 웹
 2. 상담 신청 팝업
-3. 총 4개의 이벤트 페이지 제작 (각 2일씩)
-  1. 네이버TV 오픈 이벤트 <https://delltech.eventinfo.kr/NaverTVOpen>
-  2. 카카오채널 오픈 이벤트 <>
-  3. PowerEdge 서버 <https://delltech.eventinfo.kr/PowerEdge>
-  4. PowerStore <https://delltech.eventinfo.kr/PowerStore>
+* 총 4개의 이벤트 페이지 제작 (각 2일씩)
+  * 네이버TV 오픈 이벤트 <https://delltech.eventinfo.kr/NaverTVOpen>
+  * 카카오채널 오픈 이벤트 <>
+  * PowerEdge 서버 <https://delltech.eventinfo.kr/PowerEdge>
+  * PowerStore <https://delltech.eventinfo.kr/PowerStore>
+- - -
+## 삼성헬스 CMS _ 수면관리
+* 제작기간 :
+* 참여도 : 퍼블리싱 100%
+* 사용프로그램 : HTML, CSS, JavaScript, JQuery
+* 삼성헬스 앱에서 제공하는 CMS 작업 (2019.04 - )
+* 모바일에서만 보여지는 컨텐츠이기 때문에 폰트 및 이미지 사이즈 vw, %로 작업
+- - -
+## GE Healthcare 이벤트 랜딩페이지
+* 제작기간 :
+* 참여도 : 퍼블리싱 100%
+* 사용프로그램 : Marketo, HTML, CSS, JavaScript, JQuery
+* 주요 기능
+1. 직접 제작한 아코디언 메뉴
+2. 반응형 웹
 - - -
 ## 생산성 앱 Momentum 클론
 * 제작기간 : 2019.03.04 ~ 2019.03.08(5일)
