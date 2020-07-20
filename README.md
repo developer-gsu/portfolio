@@ -8,7 +8,10 @@
 1. 반응형 웹
 2. 상담 신청 팝업
 3. 총 4개의 이벤트 페이지 제작 (각 2일씩)
-1) 네이버TV 오픈 이벤트 <https://delltech.eventinfo.kr/NaverTVOpen>
+  1. 네이버TV 오픈 이벤트 <https://delltech.eventinfo.kr/NaverTVOpen>
+  2. 카카오채널 오픈 이벤트 <>
+  3. PowerEdge 서버 <https://delltech.eventinfo.kr/PowerEdge>
+  4. PowerStore <https://delltech.eventinfo.kr/PowerStore>
 - - -
 ## 생산성 앱 Momentum 클론
 * 제작기간 : 2019.03.04 ~ 2019.03.08(5일)
