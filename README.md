@@ -9,24 +9,42 @@
 2. 상담 신청 팝업
 * 총 4개의 이벤트 페이지 제작 (각 2일씩)
   * 네이버TV 오픈 이벤트 <https://delltech.eventinfo.kr/NaverTVOpen>
-  * 카카오채널 오픈 이벤트 <>
+  * 카카오채널 오픈 이벤트 <https://delltech.eventinfo.kr/kakaotalkChannelOpen>
   * PowerEdge 서버 <https://delltech.eventinfo.kr/PowerEdge>
   * PowerStore <https://delltech.eventinfo.kr/PowerStore>
 - - -
 ## 삼성헬스 CMS _ 수면관리
-* 제작기간 :
 * 참여도 : 퍼블리싱 100%
 * 사용프로그램 : HTML, CSS, JavaScript, JQuery
 * 삼성헬스 앱에서 제공하는 CMS 작업 (2019.04 - )
 * 모바일에서만 보여지는 컨텐츠이기 때문에 폰트 및 이미지 사이즈 vw, %로 작업
+* 다국어(23개국) 컨텐츠 제작
+- - -
+## 허쉬 KR / JP 홈페이지
+* 참여도 : 퍼블리싱 100%, 운영 / 유지
+* 사용프로그램 : AEM, HTML, CSS, JavaScript, JQuery
+* 제품 업데이트, 팝업 및 이벤트 페이지 관리
 - - -
 ## GE Healthcare 이벤트 랜딩페이지
-* 제작기간 :
 * 참여도 : 퍼블리싱 100%
 * 사용프로그램 : Marketo, HTML, CSS, JavaScript, JQuery
 * 주요 기능
-1. 직접 제작한 아코디언 메뉴
-2. 반응형 웹
+1. Marketo를 이용하여 작업 
+2. 직접 제작한 아코디언 메뉴
+3. 반응형 웹
+- - -
+## 행복얼라이언스 뉴스레터 템플릿
+* 참여도 : 퍼블리싱 100%
+* 사용 프로그램: HTML, CSS, JavaScript, JQuery, ajax
+* 주요 기능
+1. 입력 창에 텍스트 작성 시 값을 받아서 만들어 놓은 폼에 값 삽입
+2. 입력한 값 뉴스레터 미리보기
+3. 입력한 값 복사하기
+- - -
+## 테스토플로스 운영 / 유지
+* 참여도 : 운영 / 유지
+* 사용 프로그램 : HTML, CSS, JavaScript, JQuery
+* 프로모션 페이지, eDM, 이테일러 페이지 관리
 - - -
 ## 생산성 앱 Momentum 클론
 * 제작기간 : 2019.03.04 ~ 2019.03.08(5일)
