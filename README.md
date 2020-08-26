@@ -13,14 +13,6 @@
   * PowerEdge 서버 : <https://delltech.eventinfo.kr/PowerEdge>
   * PowerStore : <https://delltech.eventinfo.kr/PowerStore>
 - - -
-## 삼성헬스 CMS _ 수면관리
-* 참여도 : 퍼블리싱 100%
-* 사용프로그램 : HTML, CSS, JavaScript, JQuery
-* 삼성헬스 앱에서 제공하는 CMS 작업 (2019.04 - )
-* 모바일에서만 보여지는 컨텐츠이기 때문에 폰트 및 이미지 사이즈 vw, %로 작업
-* 다국어(23개국) 컨텐츠 제작
-  * US: <http://eventinfo.kr/samsung/wearableSleep/>
-- - -
 ## 허쉬 KR / JP 홈페이지
 * 참여도 : 퍼블리싱 100%, 운영 / 유지
 * 사용프로그램 : AEM, HTML, CSS, JavaScript, JQuery
